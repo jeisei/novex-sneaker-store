@@ -1,0 +1,1741 @@
+{
+  "base": "https://clever-creponne-9b561b.netlify.app/",
+  "sourceCommit": "757f61dad8547768e0d139e27ab5169d0741b1f7",
+  "productionPublic": true,
+  "html": {
+    "status": 200,
+    "cache": "public,max-age=0,must-revalidate",
+    "csp": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'sha256-BkKP2XO6WOEc3kXOiLr2ZoY83hamalKjPY9xBcbXVuw='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.netlify.com",
+    "note": "Netlify injects its free-plan badge and hosting comment into HTML."
+  },
+  "bundle": {
+    "url": "https://clever-creponne-9b561b.netlify.app/assets/index-DEUsEcug.js",
+    "status": 200,
+    "cache": "public,max-age=31536000,immutable",
+    "encoding": "br"
+  },
+  "assets": [
+    {
+      "path": "assets/exhibit/v2/vx-001/glow-ground.webp",
+      "status": 200,
+      "bytes": 44116,
+      "sourceBytes": 44116,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/glow-hover.webp",
+      "status": 200,
+      "bytes": 43556,
+      "sourceBytes": 43556,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/plate-ground.webp",
+      "status": 200,
+      "bytes": 6148,
+      "sourceBytes": 6148,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/plate-hover.webp",
+      "status": 200,
+      "bytes": 6140,
+      "sourceBytes": 6140,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/plate-rest.webp",
+      "status": 200,
+      "bytes": 5304,
+      "sourceBytes": 5304,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/shadow-ground.webp",
+      "status": 200,
+      "bytes": 14272,
+      "sourceBytes": 14272,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/shadow-hover.webp",
+      "status": 200,
+      "bytes": 14208,
+      "sourceBytes": 14208,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-001/shadow-rest.webp",
+      "status": 200,
+      "bytes": 13158,
+      "sourceBytes": 13158,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-002/glow-ground.webp",
+      "status": 200,
+      "bytes": 38836,
+      "sourceBytes": 38836,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-002/glow-hover.webp",
+      "status": 200,
+      "bytes": 38780,
+      "sourceBytes": 38780,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-002/shadow-ground.webp",
+      "status": 200,
+      "bytes": 14062,
+      "sourceBytes": 14062,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-002/shadow-hover.webp",
+      "status": 200,
+      "bytes": 14222,
+      "sourceBytes": 14222,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-002/shadow-rest.webp",
+      "status": 200,
+      "bytes": 13422,
+      "sourceBytes": 13422,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-003/glow-ground.webp",
+      "status": 200,
+      "bytes": 45026,
+      "sourceBytes": 45026,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-003/glow-hover.webp",
+      "status": 200,
+      "bytes": 44996,
+      "sourceBytes": 44996,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-003/shadow-ground.webp",
+      "status": 200,
+      "bytes": 17702,
+      "sourceBytes": 17702,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-003/shadow-hover.webp",
+      "status": 200,
+      "bytes": 17258,
+      "sourceBytes": 17258,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-003/shadow-rest.webp",
+      "status": 200,
+      "bytes": 16200,
+      "sourceBytes": 16200,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-004/glow-ground.webp",
+      "status": 200,
+      "bytes": 50286,
+      "sourceBytes": 50286,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-004/glow-hover.webp",
+      "status": 200,
+      "bytes": 50812,
+      "sourceBytes": 50812,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-004/shadow-ground.webp",
+      "status": 200,
+      "bytes": 19472,
+      "sourceBytes": 19472,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-004/shadow-hover.webp",
+      "status": 200,
+      "bytes": 19774,
+      "sourceBytes": 19774,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-004/shadow-rest.webp",
+      "status": 200,
+      "bytes": 18056,
+      "sourceBytes": 18056,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-005/glow-ground.webp",
+      "status": 200,
+      "bytes": 37234,
+      "sourceBytes": 37234,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-005/glow-hover.webp",
+      "status": 200,
+      "bytes": 37220,
+      "sourceBytes": 37220,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-005/shadow-ground.webp",
+      "status": 200,
+      "bytes": 19276,
+      "sourceBytes": 19276,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-005/shadow-hover.webp",
+      "status": 200,
+      "bytes": 19284,
+      "sourceBytes": 19284,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-005/shadow-rest.webp",
+      "status": 200,
+      "bytes": 18444,
+      "sourceBytes": 18444,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-006/glow-ground.webp",
+      "status": 200,
+      "bytes": 49042,
+      "sourceBytes": 49042,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-006/glow-hover.webp",
+      "status": 200,
+      "bytes": 48342,
+      "sourceBytes": 48342,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-006/shadow-ground.webp",
+      "status": 200,
+      "bytes": 14658,
+      "sourceBytes": 14658,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-006/shadow-hover.webp",
+      "status": 200,
+      "bytes": 15768,
+      "sourceBytes": 15768,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-006/shadow-rest.webp",
+      "status": 200,
+      "bytes": 13648,
+      "sourceBytes": 13648,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-007/glow-ground.webp",
+      "status": 200,
+      "bytes": 48260,
+      "sourceBytes": 48260,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-007/glow-hover.webp",
+      "status": 200,
+      "bytes": 47938,
+      "sourceBytes": 47938,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-007/shadow-ground.webp",
+      "status": 200,
+      "bytes": 17598,
+      "sourceBytes": 17598,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-007/shadow-hover.webp",
+      "status": 200,
+      "bytes": 18216,
+      "sourceBytes": 18216,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-007/shadow-rest.webp",
+      "status": 200,
+      "bytes": 16918,
+      "sourceBytes": 16918,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-008/glow-ground.webp",
+      "status": 200,
+      "bytes": 49812,
+      "sourceBytes": 49812,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-008/glow-hover.webp",
+      "status": 200,
+      "bytes": 51374,
+      "sourceBytes": 51374,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-008/shadow-ground.webp",
+      "status": 200,
+      "bytes": 19276,
+      "sourceBytes": 19276,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-008/shadow-hover.webp",
+      "status": 200,
+      "bytes": 19996,
+      "sourceBytes": 19996,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-008/shadow-rest.webp",
+      "status": 200,
+      "bytes": 17794,
+      "sourceBytes": 17794,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-009/glow-ground.webp",
+      "status": 200,
+      "bytes": 47582,
+      "sourceBytes": 47582,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-009/glow-hover.webp",
+      "status": 200,
+      "bytes": 47348,
+      "sourceBytes": 47348,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-009/shadow-ground.webp",
+      "status": 200,
+      "bytes": 18396,
+      "sourceBytes": 18396,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-009/shadow-hover.webp",
+      "status": 200,
+      "bytes": 18562,
+      "sourceBytes": 18562,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-009/shadow-rest.webp",
+      "status": 200,
+      "bytes": 18124,
+      "sourceBytes": 18124,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-010/glow-ground.webp",
+      "status": 200,
+      "bytes": 38160,
+      "sourceBytes": 38160,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-010/glow-hover.webp",
+      "status": 200,
+      "bytes": 39656,
+      "sourceBytes": 39656,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-010/shadow-ground.webp",
+      "status": 200,
+      "bytes": 19372,
+      "sourceBytes": 19372,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-010/shadow-hover.webp",
+      "status": 200,
+      "bytes": 20424,
+      "sourceBytes": 20424,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/exhibit/v2/vx-010/shadow-rest.webp",
+      "status": 200,
+      "bytes": 19720,
+      "sourceBytes": 19720,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/fonts/Inter-Product-OFL.txt",
+      "status": 200,
+      "bytes": 4377,
+      "sourceBytes": 4377,
+      "transformedHtml": false,
+      "encoding": "br",
+      "type": "text/plain; charset=UTF-8"
+    },
+    {
+      "path": "assets/fonts/inter-product-price-600.woff2",
+      "status": 200,
+      "bytes": 2924,
+      "sourceBytes": 2924,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/montserrat-cyrillic-400.woff2",
+      "status": 200,
+      "bytes": 10980,
+      "sourceBytes": 10980,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/montserrat-latin-400.woff2",
+      "status": 200,
+      "bytes": 18780,
+      "sourceBytes": 18780,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "status": 200,
+      "bytes": 4400,
+      "sourceBytes": 4400,
+      "transformedHtml": false,
+      "encoding": "br",
+      "type": "text/plain; charset=UTF-8"
+    },
+    {
+      "path": "assets/fonts/montserrat-product-latin-400.woff2",
+      "status": 200,
+      "bytes": 24344,
+      "sourceBytes": 24344,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/montserrat-product-latin-600.woff2",
+      "status": 200,
+      "bytes": 24764,
+      "sourceBytes": 24764,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Product-OFL.txt",
+      "status": 200,
+      "bytes": 4400,
+      "sourceBytes": 4400,
+      "transformedHtml": false,
+      "encoding": "br",
+      "type": "text/plain; charset=UTF-8"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-initial.webp",
+      "status": 200,
+      "bytes": 395490,
+      "sourceBytes": 395490,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-mobile.webp",
+      "status": 200,
+      "bytes": 115292,
+      "sourceBytes": 115292,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-rear.webp",
+      "status": 200,
+      "bytes": 6280,
+      "sourceBytes": 6280,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-side.webp",
+      "status": 200,
+      "bytes": 13482,
+      "sourceBytes": 13482,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-sole.webp",
+      "status": 200,
+      "bytes": 13534,
+      "sourceBytes": 13534,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-001-top.webp",
+      "status": 200,
+      "bytes": 12856,
+      "sourceBytes": 12856,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-initial.webp",
+      "status": 200,
+      "bytes": 315746,
+      "sourceBytes": 315746,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-mobile.webp",
+      "status": 200,
+      "bytes": 92336,
+      "sourceBytes": 92336,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-rear.webp",
+      "status": 200,
+      "bytes": 5684,
+      "sourceBytes": 5684,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-side.webp",
+      "status": 200,
+      "bytes": 10296,
+      "sourceBytes": 10296,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-sole.webp",
+      "status": 200,
+      "bytes": 11866,
+      "sourceBytes": 11866,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-002-top.webp",
+      "status": 200,
+      "bytes": 10780,
+      "sourceBytes": 10780,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-initial.webp",
+      "status": 200,
+      "bytes": 361690,
+      "sourceBytes": 361690,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-mobile.webp",
+      "status": 200,
+      "bytes": 110370,
+      "sourceBytes": 110370,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-rear.webp",
+      "status": 200,
+      "bytes": 7510,
+      "sourceBytes": 7510,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-side.webp",
+      "status": 200,
+      "bytes": 15740,
+      "sourceBytes": 15740,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-sole.webp",
+      "status": 200,
+      "bytes": 13774,
+      "sourceBytes": 13774,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-003-top.webp",
+      "status": 200,
+      "bytes": 14066,
+      "sourceBytes": 14066,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-initial.webp",
+      "status": 200,
+      "bytes": 373328,
+      "sourceBytes": 373328,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-mobile.webp",
+      "status": 200,
+      "bytes": 113942,
+      "sourceBytes": 113942,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-rear.webp",
+      "status": 200,
+      "bytes": 6874,
+      "sourceBytes": 6874,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-side.webp",
+      "status": 200,
+      "bytes": 13092,
+      "sourceBytes": 13092,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-sole.webp",
+      "status": 200,
+      "bytes": 13626,
+      "sourceBytes": 13626,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-004-top.webp",
+      "status": 200,
+      "bytes": 12674,
+      "sourceBytes": 12674,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-initial.webp",
+      "status": 200,
+      "bytes": 346330,
+      "sourceBytes": 346330,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-mobile.webp",
+      "status": 200,
+      "bytes": 104732,
+      "sourceBytes": 104732,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-rear.webp",
+      "status": 200,
+      "bytes": 4830,
+      "sourceBytes": 4830,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-side.webp",
+      "status": 200,
+      "bytes": 8942,
+      "sourceBytes": 8942,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-sole.webp",
+      "status": 200,
+      "bytes": 9146,
+      "sourceBytes": 9146,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-005-top.webp",
+      "status": 200,
+      "bytes": 9280,
+      "sourceBytes": 9280,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-initial.webp",
+      "status": 200,
+      "bytes": 325972,
+      "sourceBytes": 325972,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-mobile.webp",
+      "status": 200,
+      "bytes": 99604,
+      "sourceBytes": 99604,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-rear.webp",
+      "status": 200,
+      "bytes": 6158,
+      "sourceBytes": 6158,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-side.webp",
+      "status": 200,
+      "bytes": 11920,
+      "sourceBytes": 11920,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-sole.webp",
+      "status": 200,
+      "bytes": 8044,
+      "sourceBytes": 8044,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-006-top.webp",
+      "status": 200,
+      "bytes": 12932,
+      "sourceBytes": 12932,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-initial.webp",
+      "status": 200,
+      "bytes": 331160,
+      "sourceBytes": 331160,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-mobile.webp",
+      "status": 200,
+      "bytes": 101984,
+      "sourceBytes": 101984,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-rear.webp",
+      "status": 200,
+      "bytes": 6222,
+      "sourceBytes": 6222,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-side.webp",
+      "status": 200,
+      "bytes": 12504,
+      "sourceBytes": 12504,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-sole.webp",
+      "status": 200,
+      "bytes": 12848,
+      "sourceBytes": 12848,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-007-top.webp",
+      "status": 200,
+      "bytes": 11750,
+      "sourceBytes": 11750,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-initial.webp",
+      "status": 200,
+      "bytes": 267388,
+      "sourceBytes": 267388,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-mobile.webp",
+      "status": 200,
+      "bytes": 80370,
+      "sourceBytes": 80370,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-rear.webp",
+      "status": 200,
+      "bytes": 5860,
+      "sourceBytes": 5860,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-side.webp",
+      "status": 200,
+      "bytes": 11080,
+      "sourceBytes": 11080,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-sole.webp",
+      "status": 200,
+      "bytes": 10730,
+      "sourceBytes": 10730,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-008-top.webp",
+      "status": 200,
+      "bytes": 10630,
+      "sourceBytes": 10630,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-initial.webp",
+      "status": 200,
+      "bytes": 310302,
+      "sourceBytes": 310302,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-mobile.webp",
+      "status": 200,
+      "bytes": 93148,
+      "sourceBytes": 93148,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-rear.webp",
+      "status": 200,
+      "bytes": 5576,
+      "sourceBytes": 5576,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-side.webp",
+      "status": 200,
+      "bytes": 11426,
+      "sourceBytes": 11426,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-sole.webp",
+      "status": 200,
+      "bytes": 9854,
+      "sourceBytes": 9854,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-009-top.webp",
+      "status": 200,
+      "bytes": 11438,
+      "sourceBytes": 11438,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-initial.webp",
+      "status": 200,
+      "bytes": 321688,
+      "sourceBytes": 321688,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-mobile.webp",
+      "status": 200,
+      "bytes": 97146,
+      "sourceBytes": 97146,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-rear.webp",
+      "status": 200,
+      "bytes": 5872,
+      "sourceBytes": 5872,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-side.webp",
+      "status": 200,
+      "bytes": 12292,
+      "sourceBytes": 12292,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-sole.webp",
+      "status": 200,
+      "bytes": 12142,
+      "sourceBytes": 12142,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-initial/v1/vx-010-top.webp",
+      "status": 200,
+      "bytes": 9804,
+      "sourceBytes": 9804,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-001.webp",
+      "status": 200,
+      "bytes": 10922,
+      "sourceBytes": 10922,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-002.webp",
+      "status": 200,
+      "bytes": 9672,
+      "sourceBytes": 9672,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-003.webp",
+      "status": 200,
+      "bytes": 10658,
+      "sourceBytes": 10658,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-004.webp",
+      "status": 200,
+      "bytes": 11170,
+      "sourceBytes": 11170,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-005.webp",
+      "status": 200,
+      "bytes": 9950,
+      "sourceBytes": 9950,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-006.webp",
+      "status": 200,
+      "bytes": 9806,
+      "sourceBytes": 9806,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-007.webp",
+      "status": 200,
+      "bytes": 10704,
+      "sourceBytes": 10704,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-008.webp",
+      "status": 200,
+      "bytes": 7894,
+      "sourceBytes": 7894,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-009.webp",
+      "status": 200,
+      "bytes": 9606,
+      "sourceBytes": 9606,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-lite/v1/vx-010.webp",
+      "status": 200,
+      "bytes": 9162,
+      "sourceBytes": 9162,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-001.webp",
+      "status": 200,
+      "bytes": 288014,
+      "sourceBytes": 288014,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-002.webp",
+      "status": 200,
+      "bytes": 271146,
+      "sourceBytes": 271146,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-003.webp",
+      "status": 200,
+      "bytes": 291970,
+      "sourceBytes": 291970,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-004.webp",
+      "status": 200,
+      "bytes": 308114,
+      "sourceBytes": 308114,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-005.webp",
+      "status": 200,
+      "bytes": 241600,
+      "sourceBytes": 241600,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-006.webp",
+      "status": 200,
+      "bytes": 264994,
+      "sourceBytes": 264994,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-007.webp",
+      "status": 200,
+      "bytes": 283326,
+      "sourceBytes": 283326,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-008.webp",
+      "status": 200,
+      "bytes": 206226,
+      "sourceBytes": 206226,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-009.webp",
+      "status": 200,
+      "bytes": 266062,
+      "sourceBytes": 266062,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/product-transition/v1/vx-010.webp",
+      "status": 200,
+      "bytes": 250066,
+      "sourceBytes": 250066,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-001.webp",
+      "status": 200,
+      "bytes": 23152,
+      "sourceBytes": 23152,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-002.webp",
+      "status": 200,
+      "bytes": 22036,
+      "sourceBytes": 22036,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-003.webp",
+      "status": 200,
+      "bytes": 29156,
+      "sourceBytes": 29156,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-004.webp",
+      "status": 200,
+      "bytes": 26554,
+      "sourceBytes": 26554,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-005.webp",
+      "status": 200,
+      "bytes": 21028,
+      "sourceBytes": 21028,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-006.webp",
+      "status": 200,
+      "bytes": 20128,
+      "sourceBytes": 20128,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-007.webp",
+      "status": 200,
+      "bytes": 24288,
+      "sourceBytes": 24288,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-008.webp",
+      "status": 200,
+      "bytes": 17010,
+      "sourceBytes": 17010,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-009.webp",
+      "status": 200,
+      "bytes": 20504,
+      "sourceBytes": 20504,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/images/shop-preview/v1/vx-010.webp",
+      "status": 200,
+      "bytes": 19858,
+      "sourceBytes": 19858,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/models/product/floating-wall-shelf.glb",
+      "status": 200,
+      "bytes": 4124588,
+      "sourceBytes": 4124588,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-001.glb",
+      "status": 200,
+      "bytes": 10838424,
+      "sourceBytes": 10838424,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-002.glb",
+      "status": 200,
+      "bytes": 20952176,
+      "sourceBytes": 20952176,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-003.glb",
+      "status": 200,
+      "bytes": 26028128,
+      "sourceBytes": 26028128,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-004.glb",
+      "status": 200,
+      "bytes": 16022836,
+      "sourceBytes": 16022836,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-005.glb",
+      "status": 200,
+      "bytes": 20803328,
+      "sourceBytes": 20803328,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-006.glb",
+      "status": 200,
+      "bytes": 13338580,
+      "sourceBytes": 13338580,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-007.glb",
+      "status": 200,
+      "bytes": 22993824,
+      "sourceBytes": 22993824,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-008.glb",
+      "status": 200,
+      "bytes": 13112720,
+      "sourceBytes": 13112720,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-009.glb",
+      "status": 200,
+      "bytes": 12313532,
+      "sourceBytes": 12313532,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/models/vx-010.glb",
+      "status": 200,
+      "bytes": 13454396,
+      "sourceBytes": 13454396,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "application/octet-stream"
+    },
+    {
+      "path": "assets/platforms/vx-002/hover.webp",
+      "status": 200,
+      "bytes": 41970,
+      "sourceBytes": 41970,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/platforms/vx-002/reduced.webp",
+      "status": 200,
+      "bytes": 41588,
+      "sourceBytes": 41588,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/platforms/vx-002/rest.webp",
+      "status": 200,
+      "bytes": 31542,
+      "sourceBytes": 31542,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/platforms/vx-002/wash.webp",
+      "status": 200,
+      "bytes": 266738,
+      "sourceBytes": 266738,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-001.webp",
+      "status": 200,
+      "bytes": 150570,
+      "sourceBytes": 150570,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-002.webp",
+      "status": 200,
+      "bytes": 111960,
+      "sourceBytes": 111960,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-003.webp",
+      "status": 200,
+      "bytes": 162378,
+      "sourceBytes": 162378,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-004.webp",
+      "status": 200,
+      "bytes": 132806,
+      "sourceBytes": 132806,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-005.webp",
+      "status": 200,
+      "bytes": 150274,
+      "sourceBytes": 150274,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-006.webp",
+      "status": 200,
+      "bytes": 113488,
+      "sourceBytes": 113488,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-007.webp",
+      "status": 200,
+      "bytes": 107220,
+      "sourceBytes": 107220,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-008.webp",
+      "status": 200,
+      "bytes": 119698,
+      "sourceBytes": 119698,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-009.webp",
+      "status": 200,
+      "bytes": 93496,
+      "sourceBytes": 93496,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/studio-refined/vx-010.webp",
+      "status": 200,
+      "bytes": 100800,
+      "sourceBytes": 100800,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-001.webp",
+      "status": 200,
+      "bytes": 153390,
+      "sourceBytes": 153390,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-002.webp",
+      "status": 200,
+      "bytes": 109120,
+      "sourceBytes": 109120,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-003.webp",
+      "status": 200,
+      "bytes": 160872,
+      "sourceBytes": 160872,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-004.webp",
+      "status": 200,
+      "bytes": 131254,
+      "sourceBytes": 131254,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-005.webp",
+      "status": 200,
+      "bytes": 149946,
+      "sourceBytes": 149946,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-006.webp",
+      "status": 200,
+      "bytes": 103780,
+      "sourceBytes": 103780,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-007.webp",
+      "status": 200,
+      "bytes": 105338,
+      "sourceBytes": 105338,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-008.webp",
+      "status": 200,
+      "bytes": 119366,
+      "sourceBytes": 119366,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-009.webp",
+      "status": 200,
+      "bytes": 92178,
+      "sourceBytes": 92178,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/renders/vx-010.webp",
+      "status": 200,
+      "bytes": 103832,
+      "sourceBytes": 103832,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/webp"
+    },
+    {
+      "path": "assets/textures/shop-metal-shelf-refined.svg",
+      "status": 200,
+      "bytes": 1403,
+      "sourceBytes": 1403,
+      "transformedHtml": false,
+      "encoding": "br",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "assets/textures/shop-metal-shelf.svg",
+      "status": 200,
+      "bytes": 873,
+      "sourceBytes": 873,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "assets/textures/shop-plaster.svg",
+      "status": 200,
+      "bytes": 390,
+      "sourceBytes": 390,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "assets/textures/shop-wall-graphite.png",
+      "status": 200,
+      "bytes": 2179630,
+      "sourceBytes": 2179630,
+      "transformedHtml": false,
+      "encoding": null,
+      "type": "image/png"
+    },
+    {
+      "path": "credits.html",
+      "status": 200,
+      "bytes": 2027,
+      "sourceBytes": 1492,
+      "transformedHtml": true,
+      "encoding": "br",
+      "type": "text/html; charset=UTF-8"
+    }
+  ],
+  "assetVerificationCommit": "126bfc2dd56a21a913e98df7b9912712c5ba2f8a",
+  "verificationDate": "2026-11-09",
+  "runtimeCommit": "757f61dad8547768e0d139e27ab5169d0741b1f7"
+}

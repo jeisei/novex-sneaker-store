@@ -11,7 +11,7 @@
 - [x] Review the exact public candidate and asset rights with the owner.
 - [x] Obtain final public-publication confirmation.
 - [x] Publish to jeisei and verify repository contents.
-- [ ] Complete Netlify authentication/account selection if needed.
-- [ ] Deploy within the account quota and verify the actual public release.
+- [x] Complete Netlify authentication/account selection if needed.
+- [x] Deploy within the account quota and verify the actual public release.
 
 Do not mark deployment complete because an older version is reachable. No paid plan, custom domain, force push or history rewrite is authorized.

@@ -2,7 +2,7 @@
 
 A premium sneaker-store concept with interactive 3D product views. An independent portfolio demonstration by [jeisei](https://github.com/jeisei), with no affiliation to the brands shown.
 
-**Live site:** [NOVEX on Netlify](https://novex-showcase-maxsweed918.netlify.app/). The audited release is published on GitHub; its Netlify deployment is pending; see [release status](docs/release/REPORT.md).
+**Live site:** [NOVEX on Netlify](https://clever-creponne-9b561b.netlify.app/). The audited release is published on GitHub and Netlify; see [release status](docs/release/REPORT.md).
 
 ![Desktop home](docs/release/home-desktop.png)
 

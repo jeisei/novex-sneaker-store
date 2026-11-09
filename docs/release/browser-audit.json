@@ -1,0 +1,1148 @@
+{
+  "checks": [
+    "HOME layout 320x568",
+    "HOME remains text-only 320",
+    "no sculpture download 320",
+    "HOME no GLB/WebGL 320",
+    "SHOP ten cards 320",
+    "SHOP images with at most one intent preload 320",
+    "search partial name 320",
+    "search Escape restores page 320",
+    "cart totals 320",
+    "cart stable footer 320",
+    "cart reload persists 320",
+    "honest checkout 320",
+    "responsive route 320 #/product/vx-005",
+    "shared footer and honest contacts 320 #/product/vx-005",
+    "shared wall 320 #/product/vx-005",
+    "responsive route 320 #/cart",
+    "shared footer and honest contacts 320 #/cart",
+    "shared wall 320 #/cart",
+    "CART no GLB 320",
+    "HOME layout 375x812",
+    "HOME remains text-only 375",
+    "no sculpture download 375",
+    "HOME no GLB/WebGL 375",
+    "SHOP ten cards 375",
+    "SHOP images with at most one intent preload 375",
+    "search partial name 375",
+    "search Escape restores page 375",
+    "cart totals 375",
+    "cart stable footer 375",
+    "cart reload persists 375",
+    "honest checkout 375",
+    "responsive route 375 #/product/vx-005",
+    "shared footer and honest contacts 375 #/product/vx-005",
+    "shared wall 375 #/product/vx-005",
+    "responsive route 375 #/cart",
+    "shared footer and honest contacts 375 #/cart",
+    "shared wall 375 #/cart",
+    "CART no GLB 375",
+    "HOME layout 390x844",
+    "HOME remains text-only 390",
+    "no sculpture download 390",
+    "HOME no GLB/WebGL 390",
+    "SHOP ten cards 390",
+    "SHOP images with at most one intent preload 390",
+    "search partial name 390",
+    "search Escape restores page 390",
+    "cart totals 390",
+    "cart stable footer 390",
+    "cart reload persists 390",
+    "honest checkout 390",
+    "responsive route 390 #/product/vx-005",
+    "shared footer and honest contacts 390 #/product/vx-005",
+    "shared wall 390 #/product/vx-005",
+    "responsive route 390 #/cart",
+    "shared footer and honest contacts 390 #/cart",
+    "shared wall 390 #/cart",
+    "CART no GLB 390",
+    "HOME layout 430x932",
+    "HOME remains text-only 430",
+    "no sculpture download 430",
+    "HOME no GLB/WebGL 430",
+    "SHOP ten cards 430",
+    "SHOP images with at most one intent preload 430",
+    "search partial name 430",
+    "search Escape restores page 430",
+    "cart totals 430",
+    "cart stable footer 430",
+    "cart reload persists 430",
+    "honest checkout 430",
+    "responsive route 430 #/product/vx-005",
+    "shared footer and honest contacts 430 #/product/vx-005",
+    "shared wall 430 #/product/vx-005",
+    "responsive route 430 #/cart",
+    "shared footer and honest contacts 430 #/cart",
+    "shared wall 430 #/cart",
+    "CART no GLB 430",
+    "HOME layout 768x1024",
+    "HOME remains text-only 768",
+    "no sculpture download 768",
+    "HOME no GLB/WebGL 768",
+    "SHOP ten cards 768",
+    "SHOP images with at most one intent preload 768",
+    "search partial name 768",
+    "search Escape restores page 768",
+    "cart totals 768",
+    "cart stable footer 768",
+    "cart reload persists 768",
+    "honest checkout 768",
+    "responsive route 768 #/product/vx-005",
+    "shared footer and honest contacts 768 #/product/vx-005",
+    "shared wall 768 #/product/vx-005",
+    "responsive route 768 #/cart",
+    "shared footer and honest contacts 768 #/cart",
+    "shared wall 768 #/cart",
+    "CART no GLB 768",
+    "HOME layout 1024x768",
+    "HOME remains text-only 1024",
+    "no sculpture download 1024",
+    "HOME no GLB/WebGL 1024",
+    "SHOP ten cards 1024",
+    "SHOP images with at most one intent preload 1024",
+    "search partial name 1024",
+    "search Escape restores page 1024",
+    "cart totals 1024",
+    "cart stable footer 1024",
+    "cart reload persists 1024",
+    "honest checkout 1024",
+    "responsive route 1024 #/product/vx-005",
+    "shared footer and honest contacts 1024 #/product/vx-005",
+    "shared wall 1024 #/product/vx-005",
+    "responsive route 1024 #/cart",
+    "shared footer and honest contacts 1024 #/cart",
+    "shared wall 1024 #/cart",
+    "CART no GLB 1024",
+    "HOME layout 1366x768",
+    "HOME remains text-only 1366",
+    "no sculpture download 1366",
+    "HOME no GLB/WebGL 1366",
+    "SHOP ten cards 1366",
+    "SHOP images with at most one intent preload 1366",
+    "search partial name 1366",
+    "search Escape restores page 1366",
+    "cart totals 1366",
+    "cart stable footer 1366",
+    "cart reload persists 1366",
+    "honest checkout 1366",
+    "responsive route 1366 #/product/vx-005",
+    "shared footer and honest contacts 1366 #/product/vx-005",
+    "shared wall 1366 #/product/vx-005",
+    "product scroll clear of footer 1366",
+    "responsive route 1366 #/cart",
+    "shared footer and honest contacts 1366 #/cart",
+    "shared wall 1366 #/cart",
+    "CART no GLB 1366",
+    "HOME layout 1672x941",
+    "HOME remains text-only 1672",
+    "no sculpture download 1672",
+    "HOME no GLB/WebGL 1672",
+    "SHOP ten cards 1672",
+    "SHOP images with at most one intent preload 1672",
+    "search partial name 1672",
+    "search Escape restores page 1672",
+    "cart totals 1672",
+    "cart stable footer 1672",
+    "cart reload persists 1672",
+    "honest checkout 1672",
+    "responsive route 1672 #/product/vx-005",
+    "shared footer and honest contacts 1672 #/product/vx-005",
+    "shared wall 1672 #/product/vx-005",
+    "product scroll clear of footer 1672",
+    "responsive route 1672 #/cart",
+    "shared footer and honest contacts 1672 #/cart",
+    "shared wall 1672 #/cart",
+    "CART no GLB 1672",
+    "HOME layout 1920x1080",
+    "HOME remains text-only 1920",
+    "no sculpture download 1920",
+    "HOME no GLB/WebGL 1920",
+    "SHOP ten cards 1920",
+    "SHOP images with at most one intent preload 1920",
+    "search partial name 1920",
+    "search Escape restores page 1920",
+    "cart totals 1920",
+    "cart stable footer 1920",
+    "cart reload persists 1920",
+    "honest checkout 1920",
+    "responsive route 1920 #/product/vx-005",
+    "shared footer and honest contacts 1920 #/product/vx-005",
+    "shared wall 1920 #/product/vx-005",
+    "product scroll clear of footer 1920",
+    "responsive route 1920 #/cart",
+    "shared footer and honest contacts 1920 #/cart",
+    "shared wall 1920 #/cart",
+    "CART no GLB 1920",
+    "HOME layout 2560x1440",
+    "HOME remains text-only 2560",
+    "no sculpture download 2560",
+    "HOME no GLB/WebGL 2560",
+    "SHOP ten cards 2560",
+    "SHOP images with at most one intent preload 2560",
+    "search partial name 2560",
+    "search Escape restores page 2560",
+    "cart totals 2560",
+    "cart stable footer 2560",
+    "cart reload persists 2560",
+    "honest checkout 2560",
+    "responsive route 2560 #/product/vx-005",
+    "shared footer and honest contacts 2560 #/product/vx-005",
+    "shared wall 2560 #/product/vx-005",
+    "product scroll clear of footer 2560",
+    "responsive route 2560 #/cart",
+    "shared footer and honest contacts 2560 #/cart",
+    "shared wall 2560 #/cart",
+    "CART no GLB 2560",
+    "selected 3D model vx-001",
+    "only selected model and shared shelf vx-001",
+    "four real presets vx-001",
+    "sole clearance vx-001 top",
+    "fixed camera vx-001 top",
+    "sole clearance vx-001 rear",
+    "fixed camera vx-001 rear",
+    "sole clearance vx-001 sole",
+    "fixed camera vx-001 sole",
+    "sole clearance vx-001 side",
+    "fixed camera vx-001 side",
+    "keyboard rotation vx-001",
+    "keyboard reset vx-001",
+    "no idle render loop vx-001",
+    "add selected size vx-001",
+    "selected 3D model vx-002",
+    "only selected model and shared shelf vx-002",
+    "four real presets vx-002",
+    "sole clearance vx-002 top",
+    "fixed camera vx-002 top",
+    "sole clearance vx-002 rear",
+    "fixed camera vx-002 rear",
+    "sole clearance vx-002 sole",
+    "fixed camera vx-002 sole",
+    "sole clearance vx-002 side",
+    "fixed camera vx-002 side",
+    "keyboard rotation vx-002",
+    "keyboard reset vx-002",
+    "no idle render loop vx-002",
+    "add selected size vx-002",
+    "selected 3D model vx-003",
+    "only selected model and shared shelf vx-003",
+    "four real presets vx-003",
+    "sole clearance vx-003 top",
+    "fixed camera vx-003 top",
+    "sole clearance vx-003 rear",
+    "fixed camera vx-003 rear",
+    "sole clearance vx-003 sole",
+    "fixed camera vx-003 sole",
+    "sole clearance vx-003 side",
+    "fixed camera vx-003 side",
+    "keyboard rotation vx-003",
+    "keyboard reset vx-003",
+    "no idle render loop vx-003",
+    "add selected size vx-003",
+    "selected 3D model vx-004",
+    "only selected model and shared shelf vx-004",
+    "four real presets vx-004",
+    "sole clearance vx-004 top",
+    "fixed camera vx-004 top",
+    "sole clearance vx-004 rear",
+    "fixed camera vx-004 rear",
+    "sole clearance vx-004 sole",
+    "fixed camera vx-004 sole",
+    "sole clearance vx-004 side",
+    "fixed camera vx-004 side",
+    "keyboard rotation vx-004",
+    "keyboard reset vx-004",
+    "no idle render loop vx-004",
+    "add selected size vx-004",
+    "selected 3D model vx-005",
+    "only selected model and shared shelf vx-005",
+    "four real presets vx-005",
+    "sole clearance vx-005 top",
+    "fixed camera vx-005 top",
+    "sole clearance vx-005 rear",
+    "fixed camera vx-005 rear",
+    "sole clearance vx-005 sole",
+    "fixed camera vx-005 sole",
+    "sole clearance vx-005 side",
+    "fixed camera vx-005 side",
+    "keyboard rotation vx-005",
+    "keyboard reset vx-005",
+    "no idle render loop vx-005",
+    "add selected size vx-005",
+    "selected 3D model vx-006",
+    "only selected model and shared shelf vx-006",
+    "four real presets vx-006",
+    "sole clearance vx-006 top",
+    "fixed camera vx-006 top",
+    "sole clearance vx-006 rear",
+    "fixed camera vx-006 rear",
+    "sole clearance vx-006 sole",
+    "fixed camera vx-006 sole",
+    "sole clearance vx-006 side",
+    "fixed camera vx-006 side",
+    "keyboard rotation vx-006",
+    "keyboard reset vx-006",
+    "no idle render loop vx-006",
+    "add selected size vx-006",
+    "selected 3D model vx-007",
+    "only selected model and shared shelf vx-007",
+    "four real presets vx-007",
+    "sole clearance vx-007 top",
+    "fixed camera vx-007 top",
+    "sole clearance vx-007 rear",
+    "fixed camera vx-007 rear",
+    "sole clearance vx-007 sole",
+    "fixed camera vx-007 sole",
+    "sole clearance vx-007 side",
+    "fixed camera vx-007 side",
+    "keyboard rotation vx-007",
+    "keyboard reset vx-007",
+    "no idle render loop vx-007",
+    "Balenciaga UV retained",
+    "add selected size vx-007",
+    "selected 3D model vx-008",
+    "only selected model and shared shelf vx-008",
+    "four real presets vx-008",
+    "sole clearance vx-008 top",
+    "fixed camera vx-008 top",
+    "sole clearance vx-008 rear",
+    "fixed camera vx-008 rear",
+    "sole clearance vx-008 sole",
+    "fixed camera vx-008 sole",
+    "sole clearance vx-008 side",
+    "fixed camera vx-008 side",
+    "keyboard rotation vx-008",
+    "keyboard reset vx-008",
+    "no idle render loop vx-008",
+    "add selected size vx-008",
+    "selected 3D model vx-009",
+    "only selected model and shared shelf vx-009",
+    "four real presets vx-009",
+    "sole clearance vx-009 top",
+    "fixed camera vx-009 top",
+    "sole clearance vx-009 rear",
+    "fixed camera vx-009 rear",
+    "sole clearance vx-009 sole",
+    "fixed camera vx-009 sole",
+    "sole clearance vx-009 side",
+    "fixed camera vx-009 side",
+    "keyboard rotation vx-009",
+    "keyboard reset vx-009",
+    "no idle render loop vx-009",
+    "add selected size vx-009",
+    "selected 3D model vx-010",
+    "only selected model and shared shelf vx-010",
+    "four real presets vx-010",
+    "sole clearance vx-010 top",
+    "fixed camera vx-010 top",
+    "sole clearance vx-010 rear",
+    "fixed camera vx-010 rear",
+    "sole clearance vx-010 sole",
+    "fixed camera vx-010 sole",
+    "sole clearance vx-010 side",
+    "fixed camera vx-010 side",
+    "keyboard rotation vx-010",
+    "keyboard reset vx-010",
+    "no idle render loop vx-010",
+    "add selected size vx-010",
+    "context loss exposes recovery",
+    "context recovery creates one canvas",
+    "rapid navigation settles on HOME",
+    "browser Back",
+    "browser Forward",
+    "purchase works before slow GLB",
+    "emulated touch drag",
+    "reduced motion preset",
+    "no unhandled browser errors",
+    "primary viewport unchanged"
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "height": 568,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        506,
+        550
+      ],
+      "panelBottom": 1146.9375,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        506,
+        550
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        750,
+        794
+      ],
+      "panelBottom": 1148.75,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        750,
+        794
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        782,
+        826
+      ],
+      "panelBottom": 1159.609375,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        782,
+        826
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        870,
+        914
+      ],
+      "panelBottom": 1188.53125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        870,
+        914
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        948,
+        992
+      ],
+      "panelBottom": 1076.71875,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        948,
+        992
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "panelBottom": 1196.875,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "panelBottom": 637.453125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        865,
+        909
+      ],
+      "panelBottom": 781.03125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        865,
+        909
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        1004,
+        1048
+      ],
+      "panelBottom": 896.40625,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        1004,
+        1048
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        1364,
+        1408
+      ],
+      "panelBottom": 993.328125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        1364,
+        1408
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "vx-001",
+      "readyMs": 11990,
+      "scenarioMs": 28577,
+      "triangles": 1877304,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      }
+    },
+    {
+      "id": "vx-002",
+      "readyMs": 14189,
+      "scenarioMs": 48841,
+      "triangles": 4262224,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      }
+    },
+    {
+      "id": "vx-003",
+      "readyMs": 3485,
+      "scenarioMs": 41233,
+      "triangles": 5693764,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      }
+    },
+    {
+      "id": "vx-004",
+      "readyMs": 2563,
+      "scenarioMs": 25862,
+      "triangles": 3448408,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      }
+    },
+    {
+      "id": "vx-005",
+      "readyMs": 5849,
+      "scenarioMs": 37099,
+      "triangles": 3754212,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      }
+    },
+    {
+      "id": "vx-006",
+      "readyMs": 2818,
+      "scenarioMs": 24364,
+      "triangles": 2885572,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      }
+    },
+    {
+      "id": "vx-007",
+      "readyMs": 4529,
+      "scenarioMs": 40814,
+      "triangles": 5039920,
+      "uv": {
+        "offset": [
+          0.0000070000001,
+          0.00000300000011
+        ],
+        "repeat": [
+          16.0031834,
+          16.0035038
+        ]
+      },
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      }
+    },
+    {
+      "id": "vx-008",
+      "readyMs": 6095,
+      "scenarioMs": 27307,
+      "triangles": 2464004,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      }
+    },
+    {
+      "id": "vx-009",
+      "readyMs": 2384,
+      "scenarioMs": 22725,
+      "triangles": 2665324,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      }
+    },
+    {
+      "id": "vx-010",
+      "readyMs": 5082,
+      "scenarioMs": 27233,
+      "triangles": 2631576,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "route": "home",
+      "width": 320,
+      "height": 568,
+      "lcp": 944,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 656
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 944
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 320,
+      "height": 568,
+      "lcp": 944,
+      "cls": 0,
+      "interactions": [
+        168,
+        168,
+        168,
+        256,
+        256,
+        16,
+        16,
+        16,
+        40,
+        40,
+        40
+      ]
+    },
+    {
+      "route": "home",
+      "width": 375,
+      "height": 812,
+      "lcp": 548,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 468
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 548
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 375,
+      "height": 812,
+      "lcp": 548,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        48,
+        48,
+        48,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "height": 844,
+      "lcp": 628,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 556
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 628
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 390,
+      "height": 844,
+      "lcp": 628,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        56,
+        56,
+        56,
+        16,
+        16,
+        16,
+        16,
+        16,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "route": "home",
+      "width": 430,
+      "height": 932,
+      "lcp": 1016,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 904
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 1016
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 430,
+      "height": 932,
+      "lcp": 1016,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        48,
+        48,
+        48,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "height": 1024,
+      "lcp": 980,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 912
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 980
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 768,
+      "height": 1024,
+      "lcp": 980,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        64,
+        64,
+        64,
+        24,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1024,
+      "height": 768,
+      "lcp": 880,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 800
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 880
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1024,
+      "height": 768,
+      "lcp": 880,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        48,
+        48,
+        48,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1366,
+      "height": 768,
+      "lcp": 700,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 588
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 700
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1366,
+      "height": 768,
+      "lcp": 700,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        40,
+        40,
+        40,
+        24,
+        24,
+        16,
+        16,
+        16,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1672,
+      "height": 941,
+      "lcp": 588,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 496
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 588
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1672,
+      "height": 941,
+      "lcp": 588,
+      "cls": 0,
+      "interactions": [
+        72,
+        72,
+        72,
+        104,
+        104,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1920,
+      "height": 1080,
+      "lcp": 588,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 476
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 588
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1920,
+      "height": 1080,
+      "lcp": 588,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        88,
+        88,
+        88,
+        24,
+        24,
+        16,
+        16,
+        16,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "route": "home",
+      "width": 2560,
+      "height": 1440,
+      "lcp": 596,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 492
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 596
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 2560,
+      "height": 1440,
+      "lcp": 596,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        64,
+        64,
+        64,
+        24,
+        24,
+        24,
+        24,
+        24
+      ]
+    }
+  ],
+  "errors": [],
+  "nativeBefore": [
+    1280,
+    720
+  ],
+  "nativeAfter": [
+    1280,
+    720
+  ],
+  "base": "https://clever-creponne-9b561b.netlify.app/",
+  "verificationDate": "2026-11-09",
+  "runtimeCommit": "126bfc2dd56a21a913e98df7b9912712c5ba2f8a",
+  "note": "All ten GLBs tested on the public site. Later host-only CSS/CSP changes are covered by the final responsive and security audits; model/renderer bytes are unchanged."
+}

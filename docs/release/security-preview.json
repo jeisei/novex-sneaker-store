@@ -2,6 +2,7 @@
   "checks": [
     "production CSP is served",
     "nosniff is served",
+    "shared footer clears the hosting badge",
     "Meshopt/WebP/worker/GLB load under CSP: []",
     "all original textures remain allocated under CSP",
     "product quantity and selected size reach Cart",
@@ -34,73 +35,73 @@
     "cancelled transitions leave no overlays",
     "cancelled motion leaves content visible",
     "no CSP violations: []",
-    "no browser errors"
+    "no browser errors: []"
   ],
   "models": [
     {
       "path": "assets/models/product/floating-wall-shelf.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 4124588
     },
     {
       "path": "assets/models/vx-001.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 10838424
     },
     {
       "path": "assets/models/vx-002.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 20952176
     },
     {
       "path": "assets/models/vx-003.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 26028128
     },
     {
       "path": "assets/models/vx-004.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 16022836
     },
     {
       "path": "assets/models/vx-005.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 20803328
     },
     {
       "path": "assets/models/vx-006.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 13338580
     },
     {
       "path": "assets/models/vx-007.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 22993824
     },
     {
       "path": "assets/models/vx-008.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 13112720
     },
     {
       "path": "assets/models/vx-009.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 12313532
     },
     {
       "path": "assets/models/vx-010.glb",
       "status": 200,
-      "type": "model/gltf-binary",
+      "type": "application/octet-stream",
       "bytes": 13454396
     }
   ],
@@ -176,22 +177,25 @@
       }
     },
     "timings": {
-      "start": 2418.2999999970198,
-      "shoefetchStart": 954.7999999970198,
-      "shoefetchEnd": 2303.7999999970198,
-      "shelffetchStart": 2419.199999988079,
-      "shelffetchEnd": 2522.199999988079,
-      "shoeparseEnd": 2981.5,
-      "shelfparseEnd": 3139.5,
-      "modelPrepared": 3212,
-      "rendererCreated": 3534.8999999910593,
-      "textureUploadStart": 3675.5,
-      "texturesPrepared": 5518.29999999702,
-      "compileStart": 5518.29999999702,
-      "compiled": 5539.5999999940395,
-      "firstRenderStart": 5539.5999999940395,
-      "firstFrame": 6698.199999988079,
-      "interactive": 6698.79999999702
+      "start": 2634.4000000059605,
+      "shelffetchStart": 2635,
+      "shelffetchEnd": 4041,
+      "shelfparseEnd": 4147.600000008941,
+      "shoefetchStart": 2329.7999999970198,
+      "shoefetchEnd": 6054.5,
+      "shoeparseEnd": 6455.29999999702,
+      "modelPrepared": 6514.29999999702,
+      "rendererCreated": 6533.79999999702,
+      "textureUploadStart": 6673.20000000298,
+      "texturesPrepared": 8504.10000000894,
+      "compileStart": 8504.10000000894,
+      "compiled": 8522.40000000596,
+      "firstRenderStart": 8522.40000000596,
+      "firstFrame": 9648.10000000894,
+      "interactive": 9648.79999999702
     }
-  }
+  },
+  "base": "https://clever-creponne-9b561b.netlify.app/",
+  "verificationDate": "2026-11-09",
+  "runtimeCommit": "757f61dad8547768e0d139e27ab5169d0741b1f7"
 }

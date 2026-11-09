@@ -9,3 +9,5 @@
 - Honor reduced motion, visible focus and touch operation. Home loads no sculpture, replacement image or GLB.
 
 The reference collage remains in the local archive. Release screenshots show the actual implementation; no pixel-perfect identity with the bitmap is claimed.
+
+On Netlify only, the mandatory free-plan badge has reserved space below the shared contacts. The desktop Product information scroll area and mobile bottom padding account for that space without changing model framing or Home copy. Local layouts retain their prior positions.

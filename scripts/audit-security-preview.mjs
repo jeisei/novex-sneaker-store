@@ -6,7 +6,7 @@ export default async function auditSecurity(page,{base='http://127.0.0.1:4174/'}
   const errors=[],checks=[];
   const check=(ok,label)=>{if(!ok)throw Error(label);checks.push(label);};
   p.on('pageerror',e=>errors.push(e.message));
-  p.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+  p.on('console',message=>{if(message.type()==='error')errors.push(message.text()+' '+JSON.stringify(message.location()));});
   await p.addInitScript(()=>{window.cspViolations=[];document.addEventListener('securitypolicyviolation',event=>window.cspViolations.push({directive:event.violatedDirective,uri:event.blockedURI}));});
   try {
     const response=await p.goto(base),headers=response.headers();
@@ -46,7 +46,6 @@ export default async function auditSecurity(page,{base='http://127.0.0.1:4174/'}
       models.push({path:file.path,status:head.status(),type:head.headers()['content-type'],bytes:Number(head.headers()['content-length'])});
     }
     // Exercise cancellation with normal GSAP motion, independent of GPU speed.
-    await p.route('**/*.glb',route=>route.abort());
     for(const hash of ['#/shop','#/product/vx-003','#/shop','#/','#/product/vx-007','#/shop']) {
       await p.evaluate(value=>{location.hash=value;},hash);await p.waitForTimeout(35);
     }
@@ -55,7 +54,7 @@ export default async function auditSecurity(page,{base='http://127.0.0.1:4174/'}
     check(await p.locator('.motion-shared,.motion-chrome-ghost').count()===0,'cancelled transitions leave no overlays');
     check(await p.locator('.route-stage:not([inert]) .shop-grid').evaluate(e=>Number(getComputedStyle(e).opacity)===1),'cancelled motion leaves content visible');
     const violations=await p.evaluate(()=>window.cspViolations);
-    check(violations.length===0,'no CSP violations: '+JSON.stringify(violations));check(errors.length===0,'no browser errors');
+    check(violations.length===0,'no CSP violations: '+JSON.stringify(violations));check(errors.length===0,'no browser errors: '+JSON.stringify(errors));
     const report={checks,models,violations,errors,viewer};
     await writeFile(new URL('../docs/release/security-preview.json',import.meta.url),JSON.stringify(report,null,2)+'\n');
     console.log(`Passed ${checks.length} production-header assertions.`);
