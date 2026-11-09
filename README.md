@@ -2,7 +2,7 @@
 
 A premium sneaker-store concept with interactive 3D product views. An independent portfolio demonstration by [jeisei](https://github.com/jeisei), with no affiliation to the brands shown.
 
-**Live site:** [NOVEX on Netlify](https://novex-showcase-maxsweed918.netlify.app/). This release candidate is not yet published; see [release status](docs/release/REPORT.md).
+**Live site:** [NOVEX on Netlify](https://novex-showcase-maxsweed918.netlify.app/). The audited release is published on GitHub; its Netlify deployment is pending; see [release status](docs/release/REPORT.md).
 
 ![Desktop home](docs/release/home-desktop.png)
 
@@ -61,7 +61,7 @@ The audit uses disposable contexts and writes screenshots/measurements to `docs/
 src/
   app/          Routing, abortable lifecycle, persistent shell and transitions
   animations/   GSAP feedback and shared-element geometry
-  components/   Markup, search, sculpture and product presentation
+  components/   Markup, search and product presentation
   data/         Catalog, cart store and asset/render metadata
   pages/        Home, Shop, Product and Cart
   styles/       Tokens and page styles

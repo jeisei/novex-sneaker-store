@@ -38,7 +38,7 @@ The cancelled architectural sculpture, its reference collage and generated maste
 
 ## Fonts and background
 
-Local Montserrat/Inter WOFF2 fonts include their SIL OFL notices. The existing graphite wall and supplied NOVEX SVG identity are preserved. Their separate upstream rights evidence is not present; permission to distribute those project materials is part of the owner's final publication review.
+Local Montserrat/Inter WOFF2 fonts include their SIL OFL notices. The existing graphite wall and supplied NOVEX SVG identity are preserved. Their separate upstream rights evidence is not present; the owner explicitly confirmed permission to distribute those project materials on 2026-11-09.
 
 ## Integrity and provenance
 

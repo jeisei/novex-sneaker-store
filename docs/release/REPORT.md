@@ -1,6 +1,6 @@
 # NOVEX final release candidate
 
-Date: 2026-11-09. Owner: jeisei. Publication is pending owner confirmation.
+Date: 2026-11-09. Owner: jeisei. The owner approved public publication and the existing wall/logo on 2026-11-09. Netlify deployment is pending.
 
 ## Work completed
 
@@ -24,7 +24,7 @@ Ten optimized sneaker GLBs: **169,857,944 bytes**. Largest: 26,028,128 bytes. Un
 
 All ten sneaker files preserve Meshopt compression, embedded textures and hashes. VX-007 UV correction is unchanged. The owner confirms Meshy Free generation; Meshy CC BY 4.0 attribution is included in README, ASSETS, THIRD_PARTY_NOTICES and the public credits page.
 
-The supplied wall texture and NOVEX SVG identity have no separate upstream license evidence in the project. Their unchanged inclusion is explicitly part of the final owner publication review. No affiliation or official-store claim is made for third-party brands.
+The supplied wall texture and NOVEX SVG identity have no separate upstream license evidence in the project. The owner explicitly approved their unchanged public inclusion on 2026-11-09. No affiliation or official-store claim is made for third-party brands.
 
 ## Verification status
 
@@ -46,7 +46,7 @@ The allowlisted candidate is prepared separately from the working archive. It in
 
 Excluded: unoptimized GLBs, Blender projects, original reference collages, backups, old build/report/video artifacts, node_modules, dist, .netlify, browser state, credentials and absolute personal paths. No original asset was deleted for cleanup.
 
-GitHub authentication has been verified as **jeisei**. The intended repository is **jeisei/novex-sneaker-store**, which was not found during preflight. No repository or code has been published by this release task yet. The allowlisted candidate is committed locally and verified through an independent Git clone; final inventory and commit identity are recorded outside the public tree in release/publication-review.json. No remote is configured before owner approval.
+Published repository: https://github.com/jeisei/novex-sneaker-store (public, owner jeisei). The initial release and verification commits were pushed without force or history rewriting. The allowlisted tree contains 301 files; originals, backups, credentials and the cancelled sculpture are excluded. Installation, tests and production build were independently verified from a Git clone.
 
 ## Netlify
 
@@ -56,4 +56,4 @@ The pre-existing URL is https://novex-showcase-maxsweed918.netlify.app/ and repr
 
 ## Remaining steps and limits
 
-Obtain explicit public-publication/asset permission, publish and verify GitHub, complete Netlify account handoff, deploy only if quota permits, and audit the actual public release. Checkout and unset contacts remain honest demo limitations. Physical iPhone/Safari/Android hardware and field Core Web Vitals have not been tested.
+Verify GitHub publication, complete Netlify account handoff, deploy only if quota permits, and audit the actual public release. Checkout and unset contacts remain honest demo limitations. Physical iPhone/Safari/Android hardware and field Core Web Vitals have not been tested.

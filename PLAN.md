@@ -8,9 +8,9 @@
 - [x] Preserve geometry, texture quality, UV correction and render recipe.
 - [x] Prepare GitHub/Netlify asset delivery and cache/security settings.
 - [x] Complete final browser, dependency and clean-clone checks; record evidence.
-- [ ] Review the exact public candidate and asset rights with the owner.
-- [ ] Obtain final public-publication confirmation.
-- [ ] Publish to jeisei and verify repository contents.
+- [x] Review the exact public candidate and asset rights with the owner.
+- [x] Obtain final public-publication confirmation.
+- [x] Publish to jeisei and verify repository contents.
 - [ ] Complete Netlify authentication/account selection if needed.
 - [ ] Deploy within the account quota and verify the actual public release.
 

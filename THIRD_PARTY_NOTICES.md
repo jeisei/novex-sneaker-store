@@ -15,7 +15,7 @@ Attribution does not grant trademark or unverified source-image rights. Nike, Ne
 
 ## Branding and background
 
-The NOVEX SVG monogram/wordmark and graphite wall were supplied with the existing project. Their upstream provenance is not independently evidenced by a license file. These unchanged materials are explicitly included in the owner's final publication review; no third-party ownership is asserted here.
+The NOVEX SVG monogram/wordmark and graphite wall were supplied with the existing project. Their upstream provenance is not independently evidenced by a license file. The owner explicitly confirmed permission for their public distribution on 2026-11-09. No independent upstream license document is available; no third-party ownership is asserted here.
 
 ## Fonts
 
