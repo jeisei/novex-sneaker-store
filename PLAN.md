@@ -7,7 +7,7 @@
 - [x] Make production asset checks portable and case-sensitive.
 - [x] Preserve geometry, texture quality, UV correction and render recipe.
 - [x] Prepare GitHub/Netlify asset delivery and cache/security settings.
-- [ ] Complete final browser, dependency and clean-clone checks; record evidence.
+- [x] Complete final browser, dependency and clean-clone checks; record evidence.
 - [ ] Review the exact public candidate and asset rights with the owner.
 - [ ] Obtain final public-publication confirmation.
 - [ ] Publish to jeisei and verify repository contents.

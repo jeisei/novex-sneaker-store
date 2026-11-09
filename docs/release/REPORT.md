@@ -29,14 +29,16 @@ The supplied wall texture and NOVEX SVG identity have no separate upstream licen
 ## Verification status
 
 - Local source tests: 47 passing; four assertions concern archival original-render provenance and are not included in the portable public suite.
-- Portable asset inventory: 192 files, **188,315,209 bytes**. Exact case, byte count, SHA-256, self-contained GLBs and render recipe checked.
+- Portable asset inventory: 192 files, **188,315,215 bytes**. Exact case, byte count, SHA-256, self-contained GLBs and render recipe checked.
 - Independent source-archive check: 58 protected original files unchanged.
 - ESLint: passing. Dependency audit: zero reported vulnerabilities. ESLint's minimatch dependency is pinned to the audited patched 11.0.1 through scoped overrides.
 - Production build: passing. Entry JS approximately 208.43 KB / 70.11 KB gzip, CSS 39.50 KB / 9.06 KB gzip. Three.js viewer/model chunks remain lazy.
 - Responsive browser audit: 196 assertions across the ten requested viewport sizes, including text-only Home without image/GLB requests, search, cart persistence/totals, contact states, shared chrome, no horizontal overflow and keyboard navigation.
-- Full 3D/context recovery/touch verification and clean-candidate installation/build are being finalized; do not treat this line as a passing result until the final evidence update.
+- 3D browser audit: 161 assertions passing across all ten models, including four presets, keyboard rotation/reset, idle rendering, UV correction, resource/context recovery, delayed loading, touch drag and rapid navigation.
+- Security-configured production preview: 35 assertions passing, including all model URLs, embedded textures, cart actions and cancellation of normal-motion transitions. No browser errors or CSP violations were recorded. Fixed connect-src to allow the blob URLs used by embedded GLB textures.
+- Independent Git clone: npm ci, ESLint, all 43 portable tests, asset verification and production build passed. Preview recipe hashing normalizes CRLF/LF so Windows and Linux checkouts produce the same recipe. The resulting bundle hashes match the candidate.
 
-Detailed evidence is stored beside this report. Laboratory FCP/LCP/CLS/Event Timing samples are not a field INP or real-device performance guarantee. Software-rendered WebGL does not establish a physical device's 60 FPS capability.
+Detailed evidence is stored beside this report: 392 browser assertions in total. Across the ten viewport samples, Home FCP/LCP ranged from 136 to 660 ms, with CLS 0. Maximum sampled Event Timing durations ranged from 48 to 392 ms. These local laboratory samples are not field INP or real-device performance guarantees. Model scenario durations include interactions and are not isolated download benchmarks. Software-rendered WebGL does not establish a physical device's 60 FPS capability.
 
 ## Public candidate
 
@@ -44,7 +46,7 @@ The allowlisted candidate is prepared separately from the working archive. It in
 
 Excluded: unoptimized GLBs, Blender projects, original reference collages, backups, old build/report/video artifacts, node_modules, dist, .netlify, browser state, credentials and absolute personal paths. No original asset was deleted for cleanup.
 
-GitHub authentication has been verified as **jeisei**. The intended repository is **jeisei/novex-sneaker-store**, which was not found during preflight. No repository or code has been published by this release task yet. Local Git review/commit and final publication manifest will be recorded after clean-candidate checks.
+GitHub authentication has been verified as **jeisei**. The intended repository is **jeisei/novex-sneaker-store**, which was not found during preflight. No repository or code has been published by this release task yet. The allowlisted candidate is committed locally and verified through an independent Git clone; final inventory and commit identity are recorded outside the public tree in release/publication-review.json. No remote is configured before owner approval.
 
 ## Netlify
 
@@ -54,4 +56,4 @@ The pre-existing URL is https://novex-showcase-maxsweed918.netlify.app/ and repr
 
 ## Remaining steps and limits
 
-Finish the current evidence update and clean clone, obtain explicit public-publication/asset permission, publish and verify GitHub, complete Netlify account handoff, deploy only if quota permits, and audit the actual public release. Checkout and unset contacts remain honest demo limitations. Physical iPhone/Safari/Android hardware and field Core Web Vitals have not been tested.
+Obtain explicit public-publication/asset permission, publish and verify GitHub, complete Netlify account handoff, deploy only if quota permits, and audit the actual public release. Checkout and unset contacts remain honest demo limitations. Physical iPhone/Safari/Android hardware and field Core Web Vitals have not been tested.
