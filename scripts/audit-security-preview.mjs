@@ -6,6 +6,7 @@ export default async function auditSecurity(page,{base='http://127.0.0.1:4174/'}
   const errors=[],checks=[];
   const check=(ok,label)=>{if(!ok)throw Error(label);checks.push(label);};
   p.on('pageerror',e=>errors.push(e.message));
+  p.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
   await p.addInitScript(()=>{window.cspViolations=[];document.addEventListener('securitypolicyviolation',event=>window.cspViolations.push({directive:event.violatedDirective,uri:event.blockedURI}));});
   try {
     const response=await p.goto(base),headers=response.headers();
