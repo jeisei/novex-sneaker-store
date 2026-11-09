@@ -1,0 +1,146 @@
+/* SHOP: neutral wall gallery, isolated from HOME and PRODUCT. */
+.shop { --shop-accent:#ff6a28; position:relative; isolation:isolate; min-height:720px; height:100vh; height:100dvh; overflow:hidden; background:#242221; }
+
+
+
+.shop-wall::before,.shop-wall::after { content:none; }
+.shop-heading { position:absolute; top:11.6%; left:3.65%; z-index:2; }
+.shop-heading h1 { margin:0 0 8px; font:400 clamp(17px,1.2vw,24px)/1.4 var(--font); letter-spacing:-.02em; color:#d3d0cc; }
+.shop-heading h1:focus,.product-placeholder h1:focus { outline:none; }
+.shop-grid { --shelf-height:clamp(10px,.78vw,15px); --shelf-bottom:30px; position:absolute; inset:24.2% 7.2% 25.2% 8.15%; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); grid-template-rows:repeat(2,minmax(0,1fr)); column-gap:2.4vw; row-gap:6.8vh; padding:0; margin:0; list-style:none; z-index:2; }
+.product-card { position:relative; min-width:0; min-height:0; }
+.product-card::before { content:''; position:absolute; left:1%; right:-3%; bottom:calc(var(--shelf-bottom) - 20px); height:27px; background:linear-gradient(180deg,#0007,#0003 38%,transparent); transform:skewX(-22deg) translateX(5px); filter:blur(5px); pointer-events:none; }
+.product-card-link { --shop-active:0; --shoe-duration:360ms; --light-duration:360ms; position:absolute; inset:0; display:block; }
+.product-card-link:focus-visible { outline:none; }
+.product-image { position:relative; display:block; overflow:hidden; }
+.product-image img { position:absolute; max-width:none; height:auto; display:block; user-select:none; }
+.product-card .product-image { position:absolute; width:90%; left:5%; bottom:calc(var(--shelf-bottom) + var(--shelf-height)); transform:translateY(calc(-6px * var(--shop-active))); transition:transform var(--shoe-duration) cubic-bezier(.22,.61,.36,1); }
+.product-shelf { position:absolute; left:0; right:0; bottom:var(--shelf-bottom); height:var(--shelf-height); }
+.product-shelf-surface { position:absolute; inset:-4px 0 0; background:url('/assets/textures/shop-metal-shelf-refined.svg') center / 100% 100% no-repeat; }
+.product-shelf::before { content:''; position:absolute; left:3.1%; right:0; top:-4px; height:2px; background:linear-gradient(90deg,#0006,#0009); filter:blur(1px); }
+.product-shelf::after { content:''; position:absolute; inset:auto 1% -2px; height:3px; background:#0006; filter:blur(1.5px); }
+/* Project each existing alpha silhouette onto the plate. No new shoe renders,
+   texture edits, GLB loads or changes to the visible image's crop / scale. */
+.product-contact-shadow { position:absolute; left:5%; width:90%; bottom:calc(var(--shelf-bottom) + var(--shelf-height) - 4px); height:11px; pointer-events:none; filter:blur(calc(1.25px + 1.25px * var(--shop-active))); opacity:calc(1 - .34 * var(--shop-active)); transform:scale(calc(1 + .06 * var(--shop-active)),calc(1 + .18 * var(--shop-active))); transition:filter var(--shoe-duration) cubic-bezier(.22,.61,.36,1),opacity var(--shoe-duration) cubic-bezier(.22,.61,.36,1),transform var(--shoe-duration) cubic-bezier(.22,.61,.36,1); }
+.product-contact-shape { display:block; width:100%; height:100%; overflow:visible; filter:brightness(0); opacity:.72; transform:skewX(-18deg); transform-origin:50% 100%; }
+.product-shelf-light { position:absolute; inset:-4px 0 0; color:var(--shop-accent); opacity:var(--shop-active); pointer-events:none; transition:opacity var(--light-duration) cubic-bezier(.22,.61,.36,1); }
+.product-shelf-light::before { content:''; position:absolute; top:50%; left:1%; right:1%; height:clamp(36px,3.2vw,62px); background:radial-gradient(ellipse at 50% 0%,color-mix(in srgb,var(--shop-accent) 58%,transparent),color-mix(in srgb,var(--shop-accent) 24%,transparent) 38%,transparent 76%); filter:blur(10px); }
+.product-shelf-light::after { content:''; position:absolute; left:1%; right:2%; top:45%; height:14px; background:color-mix(in srgb,var(--shop-accent) 27%,transparent); filter:blur(6px); }
+.product-shelf-light svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; filter:drop-shadow(0 0 4px color-mix(in srgb,var(--shop-accent) 42%,transparent)); }
+.product-shelf-wash { fill:currentColor; opacity:.32; }
+.product-shelf-face { opacity:.9; filter:blur(.35px); }
+.product-shelf-side { fill:currentColor; opacity:.38; }
+.product-shelf-hot { stop-color:color-mix(in srgb,var(--shop-accent) 25%,#ffe6a9); }
+.product-shelf-warm { stop-color:color-mix(in srgb,var(--shop-accent) 50%,#ffd28d); }
+.product-shelf-orange { stop-color:var(--shop-accent); }
+.product-shelf-edge { fill:none; stroke:currentColor; stroke-opacity:.4; stroke-width:1.1; vector-effect:non-scaling-stroke; filter:blur(.6px); }
+.product-card-link:focus-visible { outline:1px solid #dedede; outline-offset:8px; }
+/* Precise-pointer hover only: touching a product still follows its link once. */
+@media (hover:hover) and (pointer:fine) {
+ .product-card-link:hover { --shop-active:1; --shoe-duration:320ms; --light-duration:320ms; }
+ .shop-grid:has(.product-card-link:hover) .product-card-link:focus-visible:not(:hover) { --shop-active:0; --shoe-duration:360ms; --light-duration:360ms; }
+}
+.product-image-error { position:absolute; inset:auto 0 65px; text-align:center; font-size:12px; color:var(--text-muted); }
+.product-card[data-image-error] .product-image { visibility:hidden; }
+/* Camera-matched RGBA stand states. The shoe remains the existing independent image. */
+.product-platform,.product-platform-wash { position:absolute; width:90%; left:5%; bottom:calc(var(--shelf-bottom) + var(--shelf-height)); pointer-events:none; }
+.product-platform { z-index:1; isolation:isolate; }
+.product-platform-wash { z-index:0; opacity:var(--shop-active); transition:opacity var(--light-duration) cubic-bezier(.22,.61,.36,1); }
+.platform-state { position:absolute; max-width:none; width:var(--platform-width); left:var(--platform-left); bottom:var(--platform-bottom); height:auto; display:block; transition:opacity var(--light-duration) cubic-bezier(.22,.61,.36,1); }
+.platform-rest { opacity:calc(1 - var(--shop-active)); }
+.platform-active { opacity:var(--shop-active); mix-blend-mode:plus-lighter; }
+.product-card[data-platform]:not([data-platform-error]) .product-image { z-index:2; }
+.product-card[data-platform]:not([data-platform-error])::before,
+.product-card[data-platform]:not([data-platform-error]) .product-shelf,
+.product-card[data-platform]:not([data-platform-error]) .product-contact-shadow { display:none; }
+.product-card[data-platform-error] .product-platform,.product-card[data-platform-error] .product-platform-wash { display:none; }
+@media(max-width:1050px) {
+ .shop { height:auto; min-height:100svh; overflow:hidden; padding:220px 7% 95px; }
+
+ .shop-heading { top:122px; left:7%; }
+ .shop-grid { position:relative; inset:auto; grid-template-columns:repeat(3,minmax(0,1fr)); grid-template-rows:none; grid-auto-rows:220px; gap:45px 5vw; }
+}
+@media(max-width:600px) {
+ .shop { padding:200px 7% 75px; }
+
+
+
+
+
+
+ .shop-heading { top:130px; }
+ .shop-heading h1 { font-size:17px; }
+ .shop-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:175px; gap:30px 7vw; }
+
+}
+.product-placeholder .product-image {
+  width: min(44vw, 650px);
+  margin: 65px 0 0 4%;
+}
+.product-placeholder-back {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .product-card .product-image { transform:none; transition:none; }
+  .product-contact-shadow { transform:none; filter:blur(1.25px); opacity:1; transition:none; }
+  .product-shelf-light { transition: none; }
+  .platform-state { transition:none; }
+  .product-platform-wash { transition:none; }
+}
+/* Real shelf/shoe states. Existing wall, grid, timing and --shop-active remain authoritative. */
+.product-exhibit { position:absolute; inset:0; pointer-events:none; }
+.product-exhibit .exhibit-layer { position:absolute; width:var(--exhibit-width); left:var(--exhibit-left); bottom:var(--shelf-bottom); height:auto; max-width:none; transform:translateY(var(--exhibit-anchor)); pointer-events:none; transition:opacity var(--light-duration) cubic-bezier(.22,.61,.36,1); }
+.exhibit-shadow { z-index:0; }
+.exhibit-glow { z-index:1; mix-blend-mode:screen; }
+/* These four captured light passes contain a broad residual wall wash.
+   Feather from the actual shelf edge, rather than exposing the render tile. */
+.product-card:is([data-product-id="vx-004"],[data-product-id="vx-005"],[data-product-id="vx-009"],[data-product-id="vx-010"]) .exhibit-glow {
+ opacity:calc(.35 * var(--shop-active));
+ mask-image:radial-gradient(ellipse 46% var(--exhibit-glow-reach) at 50% calc(100% - var(--exhibit-anchor)),#000 0%,#000d 20%,#0006 50%,transparent 100%);
+}
+.exhibit-plate { z-index:2; }
+.exhibit-rest { opacity:calc(1 - var(--shop-active)); }
+.exhibit-active { opacity:var(--shop-active); }
+.exhibit-shoe .exhibit-ground,.product-exhibit .exhibit-ground { display:none; }
+.product-exhibit .exhibit-shadow.exhibit-rest { opacity:calc(.48 * (1 - var(--shop-active))); }
+.product-exhibit .exhibit-shadow.exhibit-active { opacity:calc(.48 * var(--shop-active)); }
+.product-card[data-exhibit]::before { display:none; }
+.product-card[data-exhibit] .exhibit-shoe { width:var(--exhibit-shoe-width); left:var(--exhibit-shoe-left); bottom:var(--shelf-bottom); z-index:3; isolation:isolate; transform:translateY(calc(var(--exhibit-shoe-anchor) - 6px * var(--shop-active))); }
+.exhibit-shoe-rest { opacity:calc(1 - var(--shop-active,0)); }
+.exhibit-shoe-active { opacity:var(--shop-active,0); mix-blend-mode:plus-lighter; }
+.exhibit-shoe img { transition:opacity var(--light-duration,360ms) cubic-bezier(.22,.61,.36,1); }
+/* Warm LED diffuser: tint only the lit stand, keeping the original shoe and wall.
+   The narrow source settles first; its soft wall spill follows and fades longer. */
+.product-exhibit .exhibit-plate.exhibit-active {
+ filter:brightness(.8) sepia(1) saturate(2.2) hue-rotate(-16deg);
+ transition-duration:calc(280ms - 80ms * var(--shop-active));
+}
+.product-exhibit .exhibit-plate.exhibit-rest {
+ transition-duration:calc(280ms - 80ms * var(--shop-active));
+}
+.product-exhibit::before,.product-exhibit::after {
+ content:''; position:absolute; pointer-events:none; opacity:var(--shop-active);
+ mix-blend-mode:screen;
+ transition:opacity calc(480ms - 120ms * var(--shop-active)) cubic-bezier(.22,.61,.36,1);
+}
+.product-exhibit::before {
+ z-index:1; left:1%; width:98%; height:clamp(46px,4.4vw,80px);
+ bottom:calc(var(--shelf-bottom) - clamp(46px,4.4vw,80px));
+ background:radial-gradient(ellipse at 50% 0%,#ff5b0878 0%,#f6530048 24%,#d83b001c 51%,transparent 76%);
+ filter:blur(9px);
+}
+.product-exhibit::after {
+ z-index:2; left:2%; width:96%; height:8px;
+ bottom:calc(var(--shelf-bottom) - 3px);
+ background:linear-gradient(90deg,transparent,#ff852647 8%,#ff9e405c 48%,#ff852647 92%,transparent);
+ filter:blur(3px);
+ transition-duration:calc(340ms - 100ms * var(--shop-active));
+}
+@media (prefers-reduced-motion: reduce) {
+ .product-card[data-exhibit] .exhibit-shoe { transform:translateY(var(--exhibit-shoe-anchor)); }
+ .product-exhibit .exhibit-layer,.exhibit-shoe img { transition:none; }
+ .product-exhibit .exhibit-active:not(.exhibit-ground),.exhibit-shoe-active:not(.exhibit-ground) { display:none; }
+ .exhibit-shoe .exhibit-ground,.product-exhibit .exhibit-ground { display:block; }
+ .product-exhibit::before,.product-exhibit::after { transition:none; }
+}

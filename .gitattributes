@@ -1,0 +1,8 @@
+* text=auto eol=lf
+public/** -text
+# Keep the upstream font notices verbatim, including their whitespace.
+public/assets/fonts/*.txt -whitespace
+*.glb binary
+*.webp binary
+*.png binary
+*.woff2 binary

@@ -1,0 +1,850 @@
+{
+  "checks": [
+    "HOME layout 320x568",
+    "HOME remains text-only 320",
+    "no sculpture download 320",
+    "HOME no GLB/WebGL 320",
+    "SHOP ten cards 320",
+    "SHOP images with at most one intent preload 320",
+    "search partial name 320",
+    "search Escape restores page 320",
+    "cart totals 320",
+    "cart stable footer 320",
+    "cart reload persists 320",
+    "honest checkout 320",
+    "responsive route 320 #/product/vx-005",
+    "shared footer and honest contacts 320 #/product/vx-005",
+    "shared wall 320 #/product/vx-005",
+    "responsive route 320 #/cart",
+    "shared footer and honest contacts 320 #/cart",
+    "shared wall 320 #/cart",
+    "CART no GLB 320",
+    "HOME layout 375x812",
+    "HOME remains text-only 375",
+    "no sculpture download 375",
+    "HOME no GLB/WebGL 375",
+    "SHOP ten cards 375",
+    "SHOP images with at most one intent preload 375",
+    "search partial name 375",
+    "search Escape restores page 375",
+    "cart totals 375",
+    "cart stable footer 375",
+    "cart reload persists 375",
+    "honest checkout 375",
+    "responsive route 375 #/product/vx-005",
+    "shared footer and honest contacts 375 #/product/vx-005",
+    "shared wall 375 #/product/vx-005",
+    "responsive route 375 #/cart",
+    "shared footer and honest contacts 375 #/cart",
+    "shared wall 375 #/cart",
+    "CART no GLB 375",
+    "HOME layout 390x844",
+    "HOME remains text-only 390",
+    "no sculpture download 390",
+    "HOME no GLB/WebGL 390",
+    "SHOP ten cards 390",
+    "SHOP images with at most one intent preload 390",
+    "search partial name 390",
+    "search Escape restores page 390",
+    "cart totals 390",
+    "cart stable footer 390",
+    "cart reload persists 390",
+    "honest checkout 390",
+    "responsive route 390 #/product/vx-005",
+    "shared footer and honest contacts 390 #/product/vx-005",
+    "shared wall 390 #/product/vx-005",
+    "responsive route 390 #/cart",
+    "shared footer and honest contacts 390 #/cart",
+    "shared wall 390 #/cart",
+    "CART no GLB 390",
+    "HOME layout 430x932",
+    "HOME remains text-only 430",
+    "no sculpture download 430",
+    "HOME no GLB/WebGL 430",
+    "SHOP ten cards 430",
+    "SHOP images with at most one intent preload 430",
+    "search partial name 430",
+    "search Escape restores page 430",
+    "cart totals 430",
+    "cart stable footer 430",
+    "cart reload persists 430",
+    "honest checkout 430",
+    "responsive route 430 #/product/vx-005",
+    "shared footer and honest contacts 430 #/product/vx-005",
+    "shared wall 430 #/product/vx-005",
+    "responsive route 430 #/cart",
+    "shared footer and honest contacts 430 #/cart",
+    "shared wall 430 #/cart",
+    "CART no GLB 430",
+    "HOME layout 768x1024",
+    "HOME remains text-only 768",
+    "no sculpture download 768",
+    "HOME no GLB/WebGL 768",
+    "SHOP ten cards 768",
+    "SHOP images with at most one intent preload 768",
+    "search partial name 768",
+    "search Escape restores page 768",
+    "cart totals 768",
+    "cart stable footer 768",
+    "cart reload persists 768",
+    "honest checkout 768",
+    "responsive route 768 #/product/vx-005",
+    "shared footer and honest contacts 768 #/product/vx-005",
+    "shared wall 768 #/product/vx-005",
+    "responsive route 768 #/cart",
+    "shared footer and honest contacts 768 #/cart",
+    "shared wall 768 #/cart",
+    "CART no GLB 768",
+    "HOME layout 1024x768",
+    "HOME remains text-only 1024",
+    "no sculpture download 1024",
+    "HOME no GLB/WebGL 1024",
+    "SHOP ten cards 1024",
+    "SHOP images with at most one intent preload 1024",
+    "search partial name 1024",
+    "search Escape restores page 1024",
+    "cart totals 1024",
+    "cart stable footer 1024",
+    "cart reload persists 1024",
+    "honest checkout 1024",
+    "responsive route 1024 #/product/vx-005",
+    "shared footer and honest contacts 1024 #/product/vx-005",
+    "shared wall 1024 #/product/vx-005",
+    "responsive route 1024 #/cart",
+    "shared footer and honest contacts 1024 #/cart",
+    "shared wall 1024 #/cart",
+    "CART no GLB 1024",
+    "HOME layout 1366x768",
+    "HOME remains text-only 1366",
+    "no sculpture download 1366",
+    "HOME no GLB/WebGL 1366",
+    "SHOP ten cards 1366",
+    "SHOP images with at most one intent preload 1366",
+    "search partial name 1366",
+    "search Escape restores page 1366",
+    "cart totals 1366",
+    "cart stable footer 1366",
+    "cart reload persists 1366",
+    "honest checkout 1366",
+    "responsive route 1366 #/product/vx-005",
+    "shared footer and honest contacts 1366 #/product/vx-005",
+    "shared wall 1366 #/product/vx-005",
+    "product scroll clear of footer 1366",
+    "responsive route 1366 #/cart",
+    "shared footer and honest contacts 1366 #/cart",
+    "shared wall 1366 #/cart",
+    "CART no GLB 1366",
+    "HOME layout 1672x941",
+    "HOME remains text-only 1672",
+    "no sculpture download 1672",
+    "HOME no GLB/WebGL 1672",
+    "SHOP ten cards 1672",
+    "SHOP images with at most one intent preload 1672",
+    "search partial name 1672",
+    "search Escape restores page 1672",
+    "cart totals 1672",
+    "cart stable footer 1672",
+    "cart reload persists 1672",
+    "honest checkout 1672",
+    "responsive route 1672 #/product/vx-005",
+    "shared footer and honest contacts 1672 #/product/vx-005",
+    "shared wall 1672 #/product/vx-005",
+    "product scroll clear of footer 1672",
+    "responsive route 1672 #/cart",
+    "shared footer and honest contacts 1672 #/cart",
+    "shared wall 1672 #/cart",
+    "CART no GLB 1672",
+    "HOME layout 1920x1080",
+    "HOME remains text-only 1920",
+    "no sculpture download 1920",
+    "HOME no GLB/WebGL 1920",
+    "SHOP ten cards 1920",
+    "SHOP images with at most one intent preload 1920",
+    "search partial name 1920",
+    "search Escape restores page 1920",
+    "cart totals 1920",
+    "cart stable footer 1920",
+    "cart reload persists 1920",
+    "honest checkout 1920",
+    "responsive route 1920 #/product/vx-005",
+    "shared footer and honest contacts 1920 #/product/vx-005",
+    "shared wall 1920 #/product/vx-005",
+    "product scroll clear of footer 1920",
+    "responsive route 1920 #/cart",
+    "shared footer and honest contacts 1920 #/cart",
+    "shared wall 1920 #/cart",
+    "CART no GLB 1920",
+    "HOME layout 2560x1440",
+    "HOME remains text-only 2560",
+    "no sculpture download 2560",
+    "HOME no GLB/WebGL 2560",
+    "SHOP ten cards 2560",
+    "SHOP images with at most one intent preload 2560",
+    "search partial name 2560",
+    "search Escape restores page 2560",
+    "cart totals 2560",
+    "cart stable footer 2560",
+    "cart reload persists 2560",
+    "honest checkout 2560",
+    "responsive route 2560 #/product/vx-005",
+    "shared footer and honest contacts 2560 #/product/vx-005",
+    "shared wall 2560 #/product/vx-005",
+    "product scroll clear of footer 2560",
+    "responsive route 2560 #/cart",
+    "shared footer and honest contacts 2560 #/cart",
+    "shared wall 2560 #/cart",
+    "CART no GLB 2560",
+    "no unhandled browser errors",
+    "primary viewport unchanged"
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "height": 568,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        506,
+        550
+      ],
+      "panelBottom": 1146.9375,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        506,
+        550
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        750,
+        794
+      ],
+      "panelBottom": 1148.75,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        750,
+        794
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        782,
+        826
+      ],
+      "panelBottom": 1159.609375,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        782,
+        826
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        870,
+        914
+      ],
+      "panelBottom": 1188.53125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        870,
+        914
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        948,
+        992
+      ],
+      "panelBottom": 1076.71875,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        948,
+        992
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "panelBottom": 1196.875,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "panelBottom": 637.453125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        692,
+        736
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        865,
+        909
+      ],
+      "panelBottom": 781.03125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        865,
+        909
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        1004,
+        1048
+      ],
+      "panelBottom": 896.40625,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        1004,
+        1048
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "route": "#/product/vx-005",
+      "overflow": false,
+      "footer": [
+        1364,
+        1408
+      ],
+      "panelBottom": 993.328125,
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "route": "#/cart",
+      "overflow": false,
+      "footer": [
+        1364,
+        1408
+      ],
+      "wall": "brightness(0.62) saturate(0.25)",
+      "contacts": 3
+    }
+  ],
+  "models": [],
+  "metrics": [
+    {
+      "route": "home",
+      "width": 320,
+      "height": 568,
+      "lcp": 660,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 68
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 660
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 320,
+      "height": 568,
+      "lcp": 660,
+      "cls": 0,
+      "interactions": [
+        192,
+        192,
+        192,
+        392,
+        384,
+        16,
+        16,
+        16,
+        40,
+        40,
+        40
+      ]
+    },
+    {
+      "route": "home",
+      "width": 375,
+      "height": 812,
+      "lcp": 136,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 32
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 136
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 375,
+      "height": 812,
+      "lcp": 136,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        48,
+        48,
+        48,
+        48,
+        40,
+        16,
+        16,
+        16,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "height": 844,
+      "lcp": 192,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 32
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 192
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 390,
+      "height": 844,
+      "lcp": 192,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        56,
+        56,
+        56,
+        32,
+        32,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 430,
+      "height": 932,
+      "lcp": 220,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 56
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 220
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 430,
+      "height": 932,
+      "lcp": 220,
+      "cls": 0,
+      "interactions": [
+        64,
+        64,
+        64,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "height": 1024,
+      "lcp": 244,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 56
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 244
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 768,
+      "height": 1024,
+      "lcp": 244,
+      "cls": 0,
+      "interactions": [
+        80,
+        80,
+        80,
+        32,
+        32,
+        16,
+        16,
+        16,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1024,
+      "height": 768,
+      "lcp": 204,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 204
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1024,
+      "height": 768,
+      "lcp": 204,
+      "cls": 0,
+      "interactions": [
+        80,
+        80,
+        80,
+        24,
+        24,
+        24,
+        24,
+        24,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1366,
+      "height": 768,
+      "lcp": 212,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 64
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 212
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1366,
+      "height": 768,
+      "lcp": 212,
+      "cls": 0,
+      "interactions": [
+        16,
+        16,
+        16,
+        56,
+        56,
+        56,
+        16,
+        32,
+        16,
+        16,
+        16,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1672,
+      "height": 941,
+      "lcp": 220,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 52
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 220
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1672,
+      "height": 941,
+      "lcp": 220,
+      "cls": 0,
+      "interactions": [
+        72,
+        72,
+        72,
+        80,
+        80,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "route": "home",
+      "width": 1920,
+      "height": 1080,
+      "lcp": 208,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 68
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 208
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 1920,
+      "height": 1080,
+      "lcp": 208,
+      "cls": 0,
+      "interactions": [
+        96,
+        96,
+        96,
+        104,
+        104,
+        104,
+        40,
+        40,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "route": "home",
+      "width": 2560,
+      "height": 1440,
+      "lcp": 244,
+      "cls": 0,
+      "interactions": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 52
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 244
+        }
+      ]
+    },
+    {
+      "route": "interaction-sample",
+      "width": 2560,
+      "height": 1440,
+      "lcp": 244,
+      "cls": 0,
+      "interactions": [
+        80,
+        80,
+        80,
+        32,
+        24,
+        32,
+        32,
+        32,
+        24,
+        24,
+        24
+      ]
+    }
+  ],
+  "errors": [],
+  "nativeBefore": [
+    1280,
+    720
+  ],
+  "nativeAfter": [
+    1280,
+    720
+  ]
+}

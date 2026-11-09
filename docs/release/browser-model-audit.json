@@ -1,0 +1,288 @@
+{
+  "checks": [
+    "selected 3D model vx-001",
+    "only selected model and shared shelf vx-001",
+    "four real presets vx-001",
+    "sole clearance vx-001 top",
+    "fixed camera vx-001 top",
+    "sole clearance vx-001 rear",
+    "fixed camera vx-001 rear",
+    "sole clearance vx-001 sole",
+    "fixed camera vx-001 sole",
+    "sole clearance vx-001 side",
+    "fixed camera vx-001 side",
+    "keyboard rotation vx-001",
+    "keyboard reset vx-001",
+    "no idle render loop vx-001",
+    "add selected size vx-001",
+    "selected 3D model vx-002",
+    "only selected model and shared shelf vx-002",
+    "four real presets vx-002",
+    "sole clearance vx-002 top",
+    "fixed camera vx-002 top",
+    "sole clearance vx-002 rear",
+    "fixed camera vx-002 rear",
+    "sole clearance vx-002 sole",
+    "fixed camera vx-002 sole",
+    "sole clearance vx-002 side",
+    "fixed camera vx-002 side",
+    "keyboard rotation vx-002",
+    "keyboard reset vx-002",
+    "no idle render loop vx-002",
+    "add selected size vx-002",
+    "selected 3D model vx-003",
+    "only selected model and shared shelf vx-003",
+    "four real presets vx-003",
+    "sole clearance vx-003 top",
+    "fixed camera vx-003 top",
+    "sole clearance vx-003 rear",
+    "fixed camera vx-003 rear",
+    "sole clearance vx-003 sole",
+    "fixed camera vx-003 sole",
+    "sole clearance vx-003 side",
+    "fixed camera vx-003 side",
+    "keyboard rotation vx-003",
+    "keyboard reset vx-003",
+    "no idle render loop vx-003",
+    "add selected size vx-003",
+    "selected 3D model vx-004",
+    "only selected model and shared shelf vx-004",
+    "four real presets vx-004",
+    "sole clearance vx-004 top",
+    "fixed camera vx-004 top",
+    "sole clearance vx-004 rear",
+    "fixed camera vx-004 rear",
+    "sole clearance vx-004 sole",
+    "fixed camera vx-004 sole",
+    "sole clearance vx-004 side",
+    "fixed camera vx-004 side",
+    "keyboard rotation vx-004",
+    "keyboard reset vx-004",
+    "no idle render loop vx-004",
+    "add selected size vx-004",
+    "selected 3D model vx-005",
+    "only selected model and shared shelf vx-005",
+    "four real presets vx-005",
+    "sole clearance vx-005 top",
+    "fixed camera vx-005 top",
+    "sole clearance vx-005 rear",
+    "fixed camera vx-005 rear",
+    "sole clearance vx-005 sole",
+    "fixed camera vx-005 sole",
+    "sole clearance vx-005 side",
+    "fixed camera vx-005 side",
+    "keyboard rotation vx-005",
+    "keyboard reset vx-005",
+    "no idle render loop vx-005",
+    "add selected size vx-005",
+    "selected 3D model vx-006",
+    "only selected model and shared shelf vx-006",
+    "four real presets vx-006",
+    "sole clearance vx-006 top",
+    "fixed camera vx-006 top",
+    "sole clearance vx-006 rear",
+    "fixed camera vx-006 rear",
+    "sole clearance vx-006 sole",
+    "fixed camera vx-006 sole",
+    "sole clearance vx-006 side",
+    "fixed camera vx-006 side",
+    "keyboard rotation vx-006",
+    "keyboard reset vx-006",
+    "no idle render loop vx-006",
+    "add selected size vx-006",
+    "selected 3D model vx-007",
+    "only selected model and shared shelf vx-007",
+    "four real presets vx-007",
+    "sole clearance vx-007 top",
+    "fixed camera vx-007 top",
+    "sole clearance vx-007 rear",
+    "fixed camera vx-007 rear",
+    "sole clearance vx-007 sole",
+    "fixed camera vx-007 sole",
+    "sole clearance vx-007 side",
+    "fixed camera vx-007 side",
+    "keyboard rotation vx-007",
+    "keyboard reset vx-007",
+    "no idle render loop vx-007",
+    "Balenciaga UV retained",
+    "add selected size vx-007",
+    "selected 3D model vx-008",
+    "only selected model and shared shelf vx-008",
+    "four real presets vx-008",
+    "sole clearance vx-008 top",
+    "fixed camera vx-008 top",
+    "sole clearance vx-008 rear",
+    "fixed camera vx-008 rear",
+    "sole clearance vx-008 sole",
+    "fixed camera vx-008 sole",
+    "sole clearance vx-008 side",
+    "fixed camera vx-008 side",
+    "keyboard rotation vx-008",
+    "keyboard reset vx-008",
+    "no idle render loop vx-008",
+    "add selected size vx-008",
+    "selected 3D model vx-009",
+    "only selected model and shared shelf vx-009",
+    "four real presets vx-009",
+    "sole clearance vx-009 top",
+    "fixed camera vx-009 top",
+    "sole clearance vx-009 rear",
+    "fixed camera vx-009 rear",
+    "sole clearance vx-009 sole",
+    "fixed camera vx-009 sole",
+    "sole clearance vx-009 side",
+    "fixed camera vx-009 side",
+    "keyboard rotation vx-009",
+    "keyboard reset vx-009",
+    "no idle render loop vx-009",
+    "add selected size vx-009",
+    "selected 3D model vx-010",
+    "only selected model and shared shelf vx-010",
+    "four real presets vx-010",
+    "sole clearance vx-010 top",
+    "fixed camera vx-010 top",
+    "sole clearance vx-010 rear",
+    "fixed camera vx-010 rear",
+    "sole clearance vx-010 sole",
+    "fixed camera vx-010 sole",
+    "sole clearance vx-010 side",
+    "fixed camera vx-010 side",
+    "keyboard rotation vx-010",
+    "keyboard reset vx-010",
+    "no idle render loop vx-010",
+    "add selected size vx-010",
+    "context loss exposes recovery",
+    "context recovery creates one canvas",
+    "rapid navigation settles on HOME",
+    "browser Back",
+    "browser Forward",
+    "purchase works before slow GLB",
+    "emulated touch drag",
+    "reduced motion preset",
+    "no unhandled browser errors",
+    "primary viewport unchanged"
+  ],
+  "layout": [],
+  "models": [
+    {
+      "id": "vx-001",
+      "triangles": 1877304,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "scenarioMs": 22783
+    },
+    {
+      "id": "vx-002",
+      "triangles": 4262224,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "scenarioMs": 49776
+    },
+    {
+      "id": "vx-003",
+      "triangles": 5693764,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      },
+      "scenarioMs": 39326
+    },
+    {
+      "id": "vx-004",
+      "triangles": 3448408,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      },
+      "scenarioMs": 24385
+    },
+    {
+      "id": "vx-005",
+      "triangles": 3754212,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "scenarioMs": 33664
+    },
+    {
+      "id": "vx-006",
+      "triangles": 2885572,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      },
+      "scenarioMs": 20917
+    },
+    {
+      "id": "vx-007",
+      "triangles": 5039920,
+      "uv": {
+        "offset": [
+          0.0000070000001,
+          0.00000300000011
+        ],
+        "repeat": [
+          16.0031834,
+          16.0035038
+        ]
+      },
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      },
+      "scenarioMs": 35978
+    },
+    {
+      "id": "vx-008",
+      "triangles": 2464004,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "scenarioMs": 25391
+    },
+    {
+      "id": "vx-009",
+      "triangles": 2665324,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 8
+      },
+      "scenarioMs": 21321
+    },
+    {
+      "id": "vx-010",
+      "triangles": 2631576,
+      "uv": null,
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "scenarioMs": 25768
+    }
+  ],
+  "metrics": [],
+  "errors": [],
+  "nativeBefore": [
+    1280,
+    720
+  ],
+  "nativeAfter": [
+    1280,
+    720
+  ],
+  "timingNote": "scenarioMs includes preset, keyboard, idle and purchase checks; not a model-ready latency benchmark."
+}

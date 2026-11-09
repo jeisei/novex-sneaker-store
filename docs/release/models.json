@@ -1,0 +1,105 @@
+{
+  "models": [
+    {
+      "id": "vx-001",
+      "bytes": 10838424,
+      "originalBytes": 27000114,
+      "meshopt": true,
+      "images": 3,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-002",
+      "bytes": 20952176,
+      "originalBytes": 58329088,
+      "meshopt": true,
+      "images": 3,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-003",
+      "bytes": 26028128,
+      "originalBytes": 75785554,
+      "meshopt": true,
+      "images": 1,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-004",
+      "bytes": 16022836,
+      "originalBytes": 45931060,
+      "meshopt": true,
+      "images": 1,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-005",
+      "bytes": 20803328,
+      "originalBytes": 53333946,
+      "meshopt": true,
+      "images": 3,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-006",
+      "bytes": 13338580,
+      "originalBytes": 38383714,
+      "meshopt": true,
+      "images": 1,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-007",
+      "bytes": 22993824,
+      "originalBytes": 66933680,
+      "meshopt": true,
+      "images": 1,
+      "materials": 1,
+      "uvCorrection": {
+        "offset": [
+          0.0000070000001,
+          0.00000300000011
+        ],
+        "scale": [
+          16.0031834,
+          16.0035038
+        ]
+      }
+    },
+    {
+      "id": "vx-008",
+      "bytes": 13112720,
+      "originalBytes": 34499314,
+      "meshopt": true,
+      "images": 3,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-009",
+      "bytes": 12313532,
+      "originalBytes": 35328894,
+      "meshopt": true,
+      "images": 1,
+      "materials": 1,
+      "uvCorrection": null
+    },
+    {
+      "id": "vx-010",
+      "bytes": 13454396,
+      "originalBytes": 36207178,
+      "meshopt": true,
+      "images": 3,
+      "materials": 1,
+      "uvCorrection": null
+    }
+  ],
+  "totalBytes": 169857944,
+  "originalBytes": 471732542
+}

@@ -1,0 +1,197 @@
+{
+  "checks": [
+    "production CSP is served",
+    "nosniff is served",
+    "Meshopt/WebP/worker/GLB load under CSP: []",
+    "all original textures remain allocated under CSP",
+    "product quantity and selected size reach Cart",
+    "Cart quantity works under CSP",
+    "Cart removal",
+    "search empty state",
+    "public model URL assets/models/product/floating-wall-shelf.glb",
+    "GLB MIME assets/models/product/floating-wall-shelf.glb",
+    "public model URL assets/models/vx-001.glb",
+    "GLB MIME assets/models/vx-001.glb",
+    "public model URL assets/models/vx-002.glb",
+    "GLB MIME assets/models/vx-002.glb",
+    "public model URL assets/models/vx-003.glb",
+    "GLB MIME assets/models/vx-003.glb",
+    "public model URL assets/models/vx-004.glb",
+    "GLB MIME assets/models/vx-004.glb",
+    "public model URL assets/models/vx-005.glb",
+    "GLB MIME assets/models/vx-005.glb",
+    "public model URL assets/models/vx-006.glb",
+    "GLB MIME assets/models/vx-006.glb",
+    "public model URL assets/models/vx-007.glb",
+    "GLB MIME assets/models/vx-007.glb",
+    "public model URL assets/models/vx-008.glb",
+    "GLB MIME assets/models/vx-008.glb",
+    "public model URL assets/models/vx-009.glb",
+    "GLB MIME assets/models/vx-009.glb",
+    "public model URL assets/models/vx-010.glb",
+    "GLB MIME assets/models/vx-010.glb",
+    "rapid normal-motion navigation settles on Shop",
+    "cancelled transitions leave no overlays",
+    "cancelled motion leaves content visible",
+    "no CSP violations: []",
+    "no browser errors"
+  ],
+  "models": [
+    {
+      "path": "assets/models/product/floating-wall-shelf.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 4124588
+    },
+    {
+      "path": "assets/models/vx-001.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 10838424
+    },
+    {
+      "path": "assets/models/vx-002.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 20952176
+    },
+    {
+      "path": "assets/models/vx-003.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 26028128
+    },
+    {
+      "path": "assets/models/vx-004.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 16022836
+    },
+    {
+      "path": "assets/models/vx-005.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 20803328
+    },
+    {
+      "path": "assets/models/vx-006.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 13338580
+    },
+    {
+      "path": "assets/models/vx-007.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 22993824
+    },
+    {
+      "path": "assets/models/vx-008.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 13112720
+    },
+    {
+      "path": "assets/models/vx-009.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 12313532
+    },
+    {
+      "path": "assets/models/vx-010.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": 13454396
+    }
+  ],
+  "violations": [],
+  "errors": [],
+  "viewer": {
+    "stats": {
+      "assetId": "vx-005",
+      "disposed": false,
+      "ready": true,
+      "frames": 1,
+      "sole": 0.0005000000000000004,
+      "plateTop": 6.938893903907228e-18,
+      "uv": null,
+      "canvasCount": 1,
+      "platformMatrix": [
+        1.36629178346138,
+        0,
+        0,
+        0,
+        0,
+        0.5960490454260833,
+        0,
+        0,
+        0,
+        0,
+        0.47293348318622885,
+        0,
+        0,
+        -0.0525,
+        0,
+        1
+      ],
+      "cameraPosition": [
+        0.59,
+        1.4620000000000002,
+        11.2
+      ],
+      "cameraQuaternion": [
+        -0.05193045611955666,
+        0.026276397901836123,
+        0.0013668635055130252,
+        0.9983040169831414
+      ],
+      "bounds": {
+        "min": [
+          -0.6936492093438249,
+          -0.3440391957884215,
+          0.986367337247857
+        ],
+        "max": [
+          0.671319556932854,
+          0.6903216879294559,
+          0.98796116375425
+        ]
+      },
+      "memory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "triangles": 3754212,
+      "motion": {
+        "yaw": 0,
+        "pitch": 0,
+        "lift": 0,
+        "dragging": false,
+        "animating": false,
+        "frameActive": false,
+        "frames": 0,
+        "reducedMotion": false,
+        "disposed": false,
+        "suspended": false
+      }
+    },
+    "timings": {
+      "start": 2418.2999999970198,
+      "shoefetchStart": 954.7999999970198,
+      "shoefetchEnd": 2303.7999999970198,
+      "shelffetchStart": 2419.199999988079,
+      "shelffetchEnd": 2522.199999988079,
+      "shoeparseEnd": 2981.5,
+      "shelfparseEnd": 3139.5,
+      "modelPrepared": 3212,
+      "rendererCreated": 3534.8999999910593,
+      "textureUploadStart": 3675.5,
+      "texturesPrepared": 5518.29999999702,
+      "compileStart": 5518.29999999702,
+      "compiled": 5539.5999999940395,
+      "firstRenderStart": 5539.5999999940395,
+      "firstFrame": 6698.199999988079,
+      "interactive": 6698.79999999702
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "note": "Pre-existing deployment only; this is not evidence that the new release is deployed.",
+  "base": "https://novex-showcase-maxsweed918.netlify.app/",
+  "models": [
+    {
+      "id": "vx-001",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 10838424
+    },
+    {
+      "id": "vx-002",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 20952176
+    },
+    {
+      "id": "vx-003",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 26028128
+    },
+    {
+      "id": "vx-004",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 16022836
+    },
+    {
+      "id": "vx-005",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 20803328
+    },
+    {
+      "id": "vx-006",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 13338580
+    },
+    {
+      "id": "vx-007",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 22993824
+    },
+    {
+      "id": "vx-008",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 13112720
+    },
+    {
+      "id": "vx-009",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 12313532
+    },
+    {
+      "id": "vx-010",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 13454396
+    }
+  ]
+}

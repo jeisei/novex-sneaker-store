@@ -1,0 +1,52 @@
+[
+  {
+    "id": "vx-001",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-002",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-003",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-004",
+    "maximumChannelDifference": 1,
+    "changedPixels": 2
+  },
+  {
+    "id": "vx-005",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-006",
+    "maximumChannelDifference": 1,
+    "changedPixels": 4
+  },
+  {
+    "id": "vx-007",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-008",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "id": "vx-009",
+    "maximumChannelDifference": 1,
+    "changedPixels": 8
+  },
+  {
+    "id": "vx-010",
+    "maximumChannelDifference": 0,
+    "changedPixels": 0
+  }
+]

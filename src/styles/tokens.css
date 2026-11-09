@@ -1,0 +1,8 @@
+:root  {
+  color-scheme: dark;
+  --surface: #181818;
+  --text: #f4f1ed;
+  --text-muted: #cbc7c4;
+  --accent: #bdbdbd;
+  --font: 'Montserrat', Arial, sans-serif;
+}
