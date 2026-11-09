@@ -163,3 +163,5 @@ button:focus-visible, a:focus-visible, [tabindex]:focus-visible  {
 /* Reserve the free-plan hosting badge without changing local layouts. */
 body:has(> script[src^="/.netlify/scripts/hud"]) .shop-contact-zone { bottom:max(68px,calc(env(safe-area-inset-bottom) + 52px)); }
 body:has(> script[src^="/.netlify/scripts/hud"]) .shop-contact-zone::before { bottom:calc(-1 * max(68px,calc(env(safe-area-inset-bottom) + 52px))); }
+@media(min-width:1051px) { body:has(> script[src^="/.netlify/scripts/hud"]) .product-info { max-height:min(100%,max(140px,calc(100dvh - 292px))); } }
+@media(max-width:1050px) { body:has(> script[src^="/.netlify/scripts/hud"]) :is(.product-page,.cart-page,.shop) { padding-bottom:calc(162px + env(safe-area-inset-bottom)); } }
