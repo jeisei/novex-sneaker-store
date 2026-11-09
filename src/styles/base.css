@@ -159,3 +159,7 @@ button:focus-visible, a:focus-visible, [tabindex]:focus-visible  {
  .shop-contact-zone { left:max(6%,24px); right:max(6%,24px); bottom:max(18px,env(safe-area-inset-bottom)); }
  .shop-contact-zone::before { bottom:calc(-1 * max(18px,env(safe-area-inset-bottom))); }
 }
+
+/* Reserve the free-plan hosting badge without changing local layouts. */
+body:has(> script[src^="/.netlify/scripts/hud"]) .shop-contact-zone { bottom:max(68px,calc(env(safe-area-inset-bottom) + 52px)); }
+body:has(> script[src^="/.netlify/scripts/hud"]) .shop-contact-zone::before { bottom:calc(-1 * max(68px,calc(env(safe-area-inset-bottom) + 52px))); }

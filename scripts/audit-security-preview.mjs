@@ -12,6 +12,7 @@ export default async function auditSecurity(page,{base='http://127.0.0.1:4174/'}
     const response=await p.goto(base),headers=response.headers();
     check(headers['content-security-policy']?.includes("'wasm-unsafe-eval'"),'production CSP is served');
     check(headers['x-content-type-options']==='nosniff','nosniff is served');
+    if(await p.locator('script[src^="/.netlify/scripts/hud"]').count())check(await p.locator('.shop-contact-zone').evaluate(e=>e.getBoundingClientRect().bottom<=innerHeight-52),'shared footer clears the hosting badge');
     await p.locator('.site-logo').click();
     await p.locator('.site-nav a[href="#/shop"]').click();await p.waitForSelector('.product-card');
     await p.locator('.product-card-link[href="#/product/vx-005"]').click();
